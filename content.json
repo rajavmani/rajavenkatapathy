@@ -1,0 +1,204 @@
+{
+  "hero": {
+    "eyebrow": "Storyteller · Marketing Strategist · New Media",
+    "headline1": "Stories people stop for.",
+    "headline2": "Campaigns that make them care.",
+    "intro1": "I tell stories that make people feel, care and act.",
+    "intro2": "I build campaigns and advocacy on complex global challenges, turning them into simple, human stories for every screen, from Reels to VR and whatever comes next.",
+    "years": "12+ years in advertising, brand building, international development, non-profit advocacy and new media.",
+    "photo": "images/portrait.jpg",
+    "photoCaption": "Raja Venkatapathy Mani · Digital Media Specialist, UNDP"
+  },
+  "numbers": [
+    {
+      "value": "400K",
+      "label": "new followers for UNDP across Instagram, Facebook and Threads"
+    },
+    {
+      "value": "+80%",
+      "label": "audience growth for UNDP India, to 250,000+"
+    },
+    {
+      "value": "100+",
+      "label": "videos, photo stories and graphics for UNDP’s global channels"
+    },
+    {
+      "value": "12 yrs",
+      "label": "in communications, from advertising agency to the United Nations"
+    }
+  ],
+  "latest": [
+    {
+      "title": "Your newest piece",
+      "date": "Month Year",
+      "tags": [
+        "Reel",
+        "Climate",
+        "Instagram"
+      ],
+      "role": "Concept, script and edit for UNDP's global Instagram",
+      "result": "",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Second piece",
+      "date": "Month Year",
+      "tags": [
+        "Explainer",
+        "Gender equality",
+        "YouTube"
+      ],
+      "role": "Your role in one line",
+      "result": "",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Third piece",
+      "date": "Month Year",
+      "tags": [
+        "Film",
+        "Crisis"
+      ],
+      "role": "Your role in one line",
+      "result": "",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Fourth piece",
+      "date": "Month Year",
+      "tags": [
+        "Campaign",
+        "Oceans"
+      ],
+      "role": "Your role in one line",
+      "result": "",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Fifth piece",
+      "date": "Month Year",
+      "tags": [
+        "Reel",
+        "Global Goals"
+      ],
+      "role": "Your role in one line",
+      "result": "",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    }
+  ],
+  "reels": [
+    {
+      "title": "Reel title",
+      "tag": "Climate",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Reel title",
+      "tag": "Gender",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Reel title",
+      "tag": "Poverty",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Reel title",
+      "tag": "Crisis",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Reel title",
+      "tag": "Oceans",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Reel title",
+      "tag": "Global Goals",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    }
+  ],
+  "about": {
+    "heading": "12 years of telling stories that matter",
+    "paragraphs": [
+      "I started in 2013 at a digital marketing agency, launching campaigns for Philips, CaratLane and Bigbasket. It taught me what makes people click, watch and share.",
+      "A master’s in New Media Storytelling at USC Annenberg took me to Los Angeles. There I produced immersive journalism for NPR, Al Jazeera, KCRW and Google, worked on advocacy campaigns at 72andSunny, and made a VR documentary on deportation that won a Webby Award.",
+      "Since 2019 I’ve brought that mix to the United Nations Development Programme (UNDP), first in New Delhi and now on its global channels in New York. I plan, write, shoot and edit campaigns on climate change, gender equality, poverty, crisis and digital transformation for audiences worldwide.",
+      "I work where strategy meets creativity. I write the brief, shape the idea, plan the distribution, make the film, and read the data that shows what worked."
+    ],
+    "photos": [
+      {
+        "src": "images/field-01.jpg",
+        "caption": "Antarctic Peninsula"
+      },
+      {
+        "src": "images/field-02.jpg",
+        "caption": "Salar de Uyuni, Bolivia"
+      },
+      {
+        "src": "images/field-03.jpg",
+        "caption": "Laguna Esmeralda, Tierra del Fuego, Argentina"
+      },
+      {
+        "src": "images/field-04.jpg",
+        "caption": "Antarctica"
+      },
+      {
+        "src": "images/field-05.jpg",
+        "caption": "Lençóis Maranhenses, Brazil"
+      },
+      {
+        "src": "images/field-06.jpg",
+        "caption": "White rhinos, Southern Africa"
+      }
+    ]
+  },
+  "caseImages": {
+    "undpGlobal": "",
+    "undpIndia": "",
+    "deported": "",
+    "counting": "",
+    "syria": ""
+  },
+  "travelPhoto": "images/travel.jpg",
+  "contact": {
+    "line": "I’m open to talk about communications, campaigns, social media and digital, across the UN system, international organisations, brands and tech.",
+    "email": "raja@rajavenkatapathy.com",
+    "linkedin": "",
+    "cv": ""
+  },
+  "wakelet": "https://wakelet.com/wake/-hoKD1NmWkkzTqJGR6X56"
+}
