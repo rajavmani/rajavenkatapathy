@@ -11,6 +11,14 @@ Adding a video: in "Latest work", click "Add an entry", fill in the title, date 
 and paste the YouTube link. For YouTube you don't need a cover image.
 Newest first: drag the new entry to the top of the list.
 
+ADDING A LINK to words: in any text box, put the words in square brackets and the
+web address in round brackets right after, with no space:
+   I lead social media for [UNDP](https://www.undp.org).
+The words "UNDP" become a link. Always start the address with https://
+
+BRAND NAMES (highlights strip, Featured in, Organisations): open that list, click a
+name and paste its web address into "Link". Leave Link empty for plain text.
+
 COLOURS: open style.css on github.com, click the pencil, change the colour codes in
 the first 20 lines, and commit. Colour codes: https://htmlcolorcodes.com
 
