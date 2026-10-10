@@ -11,20 +11,26 @@
 
   // ---------- video cards ----------
   var all=[];
+  function cover(v){ return v.thumb || (v.youtube ? 'https://i.ytimg.com/vi/'+encodeURIComponent(v.youtube)+'/hqdefault.jpg' : ''); }
+  function vimg(v){
+    var src=cover(v);
+    return (src?'<img src="'+esc(src)+'" alt="" loading="lazy" onerror="this.parentNode.classList.add(\'empty\')">':'')+
+           '<span class="miss">Video coming soon</span>';
+  }
   function card(v,kind){
     var k=all.push(v)-1;
     var prev=v.preview?'<video class="preview" src="'+esc(v.preview)+'" muted loop playsinline preload="none"></video>':'';
     if(kind==='latest'){
       var tags=(v.tags||[]).map(function(t){return '<span class="label">'+esc(t)+'</span>';}).join('');
       return '<button type="button" class="card" data-v="'+k+'" data-kind="wide">'+
-        '<div class="ph">'+img(v.thumb)+prev+'<span class="play" aria-hidden="true"></span></div>'+
+        '<div class="ph'+(cover(v)?'':' empty')+'">'+vimg(v)+prev+'<span class="play" aria-hidden="true"></span></div>'+
         '<span class="label accent">'+esc(v.date)+'</span><h3>'+esc(v.title)+'</h3>'+
         '<div class="tags">'+tags+'</div>'+
         (v.role?'<p class="role">'+esc(v.role)+'</p>':'')+
         (v.result?'<span class="res">'+esc(v.result)+'</span>':'')+'</button>';
     }
     return '<button type="button" class="card" data-v="'+k+'" data-kind="vertical">'+
-      '<div class="ph">'+img(v.thumb)+prev+(v.tag?'<span class="badge">'+esc(v.tag)+'</span>':'')+'<span class="play" aria-hidden="true"></span></div>'+
+      '<div class="ph'+(cover(v)?'':' empty')+'">'+vimg(v)+prev+(v.tag?'<span class="badge">'+esc(v.tag)+'</span>':'')+'<span class="play" aria-hidden="true"></span></div>'+
       '<h3>'+esc(v.title)+'</h3></button>';
   }
   function slider(id,items,kind){
