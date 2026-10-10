@@ -181,6 +181,355 @@
       "tag": "Global Goals"
     }
   ],
+  "graphics": [
+    {
+      "image": "",
+      "caption": "",
+      "link": ""
+    },
+    {
+      "image": "",
+      "caption": "",
+      "link": ""
+    },
+    {
+      "image": "",
+      "caption": "",
+      "link": ""
+    },
+    {
+      "image": "",
+      "caption": "",
+      "link": ""
+    },
+    {
+      "image": "",
+      "caption": "",
+      "link": ""
+    }
+  ],
+  "graphicsMore": "",
+  "about": {
+    "heading": "Telling stories that matter",
+    "paragraphs": [
+      "I started at a digital marketing agency, launching campaigns for Philips and fast-growing consumer brands. It taught me what makes people click, watch and share.",
+      "A master’s in New Media Storytelling at USC Annenberg took me to Los Angeles, where I produced immersive journalism for NPR, Al Jazeera, KCRW and Google, worked on advocacy campaigns at 72andSunny, and made a VR documentary that won a Webby Award.",
+      "Since 2019 I’ve been with the United Nations Development Programme (UNDP), starting in New Delhi and now in New York. I plan, write, shoot and edit campaigns on climate change, gender equality, poverty, crisis and digital transformation for audiences worldwide.",
+      "I work where strategy meets creativity. I write the brief, shape the idea, plan the distribution, make the film, and read the data that shows what worked."
+    ],
+    "photos": [
+      {
+        "src": "images/field-01.jpg",
+        "caption": "Antarctic Peninsula"
+      },
+      {
+        "src": "images/field-02.jpg",
+        "caption": "Salar de Uyuni, Bolivia"
+      },
+      {
+        "src": "images/field-03.jpg",
+        "caption": "Laguna Esmeralda, Tierra del Fuego, Argentina"
+      },
+      {
+        "src": "images/field-04.jpg",
+        "caption": "Antarctica"
+      },
+      {
+        "src": "images/field-05.jpg",
+        "caption": "Lençóis Maranhenses, Brazil"
+      },
+      {
+        "src": "images/field-06.jpg",
+        "caption": "White rhinos, Southern Africa"
+      }
+    ]
+  },
+  "travelPhoto": "images/travel.jpg",
+  "contact": {
+    "line": "I’m open to talk about communications, campaigns, social media and digital, across the UN system, international organisations, brands and tech.",
+    "email": "raja@rajavenkatapathy.com"
+  },
+  "wakelet": "https://wakelet.com/wake/-hoKD1NmWkkzTqJGR6X56",
+  "featuredIn": [
+    {
+      "name": "AdWeek",
+      "link": ""
+    },
+    {
+      "name": "Campaign",
+      "link": ""
+    },
+    {
+      "name": "The Muse by Clio",
+      "link": ""
+    },
+    {
+      "name": "Little Black Book",
+      "link": ""
+    },
+    {
+      "name": "BuzzFeed",
+      "link": ""
+    },
+    {
+      "name": "Mitú",
+      "link": ""
+    },
+    {
+      "name": "Argonaut News",
+      "link": ""
+    }
+  ],
+  "organisations": [
+    {
+      "name": "UNDP",
+      "link": ""
+    },
+    {
+      "name": "UN Women",
+      "link": ""
+    },
+    {
+      "name": "Samsung",
+      "link": ""
+    },
+    {
+      "name": "Google",
+      "link": ""
+    },
+    {
+      "name": "NPR",
+      "link": ""
+    },
+    {
+      "name": "Al Jazeera Contrast VR",
+      "link": ""
+    },
+    {
+      "name": "KCRW",
+      "link": ""
+    },
+    {
+      "name": "Fast Company",
+      "link": ""
+    },
+    {
+      "name": "72andSunny",
+      "link": ""
+    },
+    {
+      "name": "Viacom · MTV",
+      "link": ""
+    },
+    {
+      "name": "Philips",
+      "link": ""
+    },
+    {
+      "name": "Xiaomi",
+      "link": ""
+    },
+    {
+      "name": "Tata Motors",
+      "link": ""
+    },
+    {
+      "name": "Bacardi",
+      "link": ""
+    },
+    {
+      "name": "Gulf Oil",
+      "link": ""
+    },
+    {
+      "name": "USC Annenberg",
+      "link": ""
+    }
+  ]
+}
+{
+  "hero": {
+    "eyebrow": "Storyteller · Marketing Strategist · New Media",
+    "headline1": "Stories people stop for.",
+    "headline2": "Campaigns that make them care.",
+    "intro1": "I tell stories that make people feel, care and act.",
+    "intro2": "I build campaigns and advocacy on complex global challenges, turning them into simple, human stories for every screen, from Reels to VR and whatever comes next.",
+    "years": "12+ years in advertising, brand building, international development, non-profit advocacy and new media.",
+    "photo": "images/raja-dp.png",
+    "photoCaption": "UN HQ"
+  },
+  "highlights": [
+    {
+      "name": "UNDP",
+      "link": "https://www.undp.org",
+      "highlight": false
+    },
+    {
+      "name": "Samsung",
+      "link": "",
+      "highlight": false
+    },
+    {
+      "name": "UN Women",
+      "link": "https://www.unwomen.org",
+      "highlight": false
+    },
+    {
+      "name": "Webby Award Winner",
+      "link": "",
+      "highlight": true
+    },
+    {
+      "name": "72andSunny",
+      "link": "",
+      "highlight": false
+    },
+    {
+      "name": "Google Daydream",
+      "link": "",
+      "highlight": false
+    },
+    {
+      "name": "USC Annenberg",
+      "link": "https://annenberg.usc.edu",
+      "highlight": false
+    }
+  ],
+  "numbers": [
+    {
+      "value": "400K",
+      "label": "new followers for UNDP across Instagram, Facebook and Threads"
+    },
+    {
+      "value": "+80%",
+      "label": "audience growth for UNDP India, to 250,000+"
+    },
+    {
+      "value": "100+",
+      "label": "videos, photo stories and graphics for UNDP’s global channels"
+    },
+    {
+      "value": "12 yrs",
+      "label": "in marketing & communications, from advertising agency to the United Nations"
+    }
+  ],
+  "latest": [
+    {
+      "title": "Your newest piece",
+      "date": "Month Year",
+      "tags": [
+        "Reel",
+        "Climate",
+        "Instagram"
+      ],
+      "role": "Concept, script and edit for UNDP's global Instagram"
+    },
+    {
+      "title": "Second piece",
+      "date": "Month Year",
+      "tags": [
+        "Explainer",
+        "Gender equality",
+        "YouTube"
+      ],
+      "role": "Your role in one line"
+    },
+    {
+      "title": "Third piece",
+      "date": "Month Year",
+      "tags": [
+        "Film",
+        "Crisis"
+      ],
+      "role": "Your role in one line"
+    },
+    {
+      "title": "Fourth piece",
+      "date": "Month Year",
+      "tags": [
+        "Campaign",
+        "Oceans"
+      ],
+      "role": "Your role in one line"
+    },
+    {
+      "title": "Fifth piece",
+      "date": "Month Year",
+      "tags": [
+        "Reel",
+        "Global Goals"
+      ],
+      "role": "Your role in one line"
+    }
+  ],
+  "latestReels": [
+    {
+      "title": "Newest reel",
+      "tag": "Climate",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Reel title",
+      "tag": "Gender",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Reel title",
+      "tag": "Oceans",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Reel title",
+      "tag": "Crisis",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Reel title",
+      "tag": "Global Goals",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    }
+  ],
+  "reels": [
+    {
+      "title": "Reel title",
+      "tag": "Climate"
+    },
+    {
+      "title": "Reel title",
+      "tag": "Gender"
+    },
+    {
+      "title": "Reel title",
+      "tag": "Poverty"
+    },
+    {
+      "title": "Reel title",
+      "tag": "Crisis"
+    },
+    {
+      "title": "Reel title",
+      "tag": "Oceans"
+    },
+    {
+      "title": "Reel title",
+      "tag": "Global Goals"
+    }
+  ],
   "about": {
     "heading": "Telling stories that matter",
     "paragraphs": [
