@@ -4,6 +4,10 @@
   function $(id){ return document.getElementById(id); }
   function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
   function setText(id,v){ var el=$(id); if(el&&v!=null&&v!=='') el.textContent=v; }
+  // [words](https://link) in any text box becomes a link
+  function md(s){ return esc(s).replace(/\[([^\]]+)\]\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g,function(_,a,u){return '<a href="'+u+'" target="_blank" rel="noopener">'+a+'</a>';}); }
+  function setRich(id,v){ var el=$(id); if(el&&v!=null&&v!=='') el.innerHTML=md(v); }
+  function names(id,list,hl){ var el=$(id); if(!el||!list||!list.length) return; el.innerHTML=list.filter(function(x){return x&&x.name;}).map(function(x){ var c=(hl&&x.highlight)?' class="hl"':''; return x.link?'<a'+c+' href="'+esc(x.link)+'" target="_blank" rel="noopener">'+esc(x.name)+'</a>':'<b'+c+'>'+esc(x.name)+'</b>'; }).join(''); }
   function imgTag(src){ return '<img src="'+esc(src)+'" alt="" loading="lazy" onerror="this.parentNode.classList.add(\'empty\')">'; }
   function fill(el,src){ if(!el) return; var old=el.querySelector('img'); if(old) old.remove(); if(src){ el.classList.remove('empty'); el.insertAdjacentHTML('afterbegin',imgTag(src)); } else { el.classList.add('empty'); } }
   function ytId(v){ if(!v) return ''; var m=String(v).match(/(?:youtu\.be\/|v=|shorts\/|embed\/)([\w-]{11})/); return m?m[1]:(/^[\w-]{11}$/.test(v)?v:''); }
@@ -13,16 +17,17 @@
   function render(C){
     var H=C.hero||{};
     setText('eyebrow',H.eyebrow); setText('h1a',H.headline1); setText('h1b',H.headline2);
-    setText('intro1',H.intro1); setText('intro2',H.intro2); setText('years',H.years); setText('photoCaption',H.photoCaption);
+    setRich('intro1',H.intro1); setRich('intro2',H.intro2); setRich('years',H.years); setText('photoCaption',H.photoCaption);
+    names('creds',C.highlights,true); names('featured',C.featuredIn); names('orgs',C.organisations);
     fill($('portrait'),H.photo||'images/portrait.jpg');
 
     if(C.numbers&&C.numbers.length){
-      $('numbers').innerHTML=C.numbers.map(function(n){return '<div class="num"><div class="n">'+esc(n.value)+'</div><p>'+esc(n.label)+'</p></div>';}).join('');
+      $('numbers').innerHTML=C.numbers.map(function(n){return '<div class="num"><div class="n">'+esc(n.value)+'</div><p>'+md(n.label)+'</p></div>';}).join('');
     }
 
     var A=C.about||{};
     setText('about-h',A.heading);
-    if(A.paragraphs&&A.paragraphs.length) $('aboutCopy').innerHTML=A.paragraphs.map(function(p){return '<p>'+esc(p)+'</p>';}).join('');
+    if(A.paragraphs&&A.paragraphs.length) $('aboutCopy').innerHTML=A.paragraphs.map(function(p){return '<p>'+md(p)+'</p>';}).join('');
     photoSlider(A.photos||[]);
 
     var CI=C.caseImages||{};
@@ -30,13 +35,14 @@
     fill($('travel'),C.travelPhoto||'images/travel.jpg');
 
     var K=C.contact||{};
-    setText('contactLine',K.line);
+    setRich('contactLine',K.line);
     if(K.email){ $('email').textContent=K.email; $('email').href='mailto:'+K.email; }
     var li=$('linkedin'); if(K.linkedin){ li.href=K.linkedin; li.hidden=false; } else li.hidden=true;
     var cv=$('cv'); if(K.cv){ cv.href=K.cv; cv.hidden=false; } else cv.hidden=true;
     if(C.wakelet) $('wakelet').href=C.wakelet; else $('wakelet').hidden=true;
 
     slider('latest-slider',C.latest||[],'latest');
+    slider('lreels-slider',C.latestReels||[],'reel');
     slider('reels-slider',C.reels||[],'reel');
   }
 
@@ -50,7 +56,7 @@
       var tags=(v.tags||[]).filter(Boolean).map(function(t){return '<span class="label">'+esc(t)+'</span>';}).join('');
       return '<button type="button" class="card" data-v="'+k+'" data-kind="wide">'+media+'<span class="play" aria-hidden="true"></span></div>'+
         '<span class="label accent">'+esc(v.date)+'</span><h3>'+esc(v.title)+'</h3><div class="tags">'+tags+'</div>'+
-        (v.role?'<p class="role">'+esc(v.role)+'</p>':'')+(v.result?'<span class="res">'+esc(v.result)+'</span>':'')+'</button>';
+        (v.role?'<p class="role">'+md(v.role)+'</p>':'')+(v.result?'<span class="res">'+esc(v.result)+'</span>':'')+'</button>';
     }
     return '<button type="button" class="card" data-v="'+k+'" data-kind="vertical">'+media+(v.tag?'<span class="badge">'+esc(v.tag)+'</span>':'')+'<span class="play" aria-hidden="true"></span></div>'+
       '<h3>'+esc(v.title)+'</h3></button>';
