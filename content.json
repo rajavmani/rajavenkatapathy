@@ -9,6 +9,48 @@
     "photo": "images/raja-dp.png",
     "photoCaption": "UN HQ"
   },
+  "highlights": [
+    {
+      "name": "UNDP",
+      "link": "https://www.undp.org",
+      "highlight": false
+    },
+    {
+      "name": "Samsung",
+      "link": "",
+      "highlight": false
+    },
+    {
+      "name": "UN Women",
+      "link": "https://www.unwomen.org",
+      "highlight": false
+    },
+    {
+      "name": "Webby Award Winner",
+      "link": "",
+      "highlight": true
+    },
+    {
+      "name": "Emmy Finalist",
+      "link": "",
+      "highlight": true
+    },
+    {
+      "name": "72andSunny",
+      "link": "",
+      "highlight": false
+    },
+    {
+      "name": "Google Daydream",
+      "link": "",
+      "highlight": false
+    },
+    {
+      "name": "USC Annenberg",
+      "link": "https://annenberg.usc.edu",
+      "highlight": false
+    }
+  ],
   "numbers": [
     {
       "value": "400K",
@@ -74,6 +116,48 @@
         "Global Goals"
       ],
       "role": "Your role in one line"
+    }
+  ],
+  "latestReels": [
+    {
+      "title": "Newest reel",
+      "tag": "Climate",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Reel title",
+      "tag": "Gender",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Reel title",
+      "tag": "Oceans",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Reel title",
+      "tag": "Crisis",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
+    },
+    {
+      "title": "Reel title",
+      "tag": "Global Goals",
+      "youtube": "",
+      "link": "",
+      "video": "",
+      "thumb": ""
     }
   ],
   "reels": [
@@ -142,5 +226,101 @@
     "line": "I’m open to talk about communications, campaigns, social media and digital, across the UN system, international organisations, brands and tech.",
     "email": "raja@rajavenkatapathy.com"
   },
-  "wakelet": "https://wakelet.com/wake/-hoKD1NmWkkzTqJGR6X56"
+  "wakelet": "https://wakelet.com/wake/-hoKD1NmWkkzTqJGR6X56",
+  "featuredIn": [
+    {
+      "name": "AdWeek",
+      "link": ""
+    },
+    {
+      "name": "Campaign",
+      "link": ""
+    },
+    {
+      "name": "The Muse by Clio",
+      "link": ""
+    },
+    {
+      "name": "Little Black Book",
+      "link": ""
+    },
+    {
+      "name": "BuzzFeed",
+      "link": ""
+    },
+    {
+      "name": "Mitú",
+      "link": ""
+    },
+    {
+      "name": "Argonaut News",
+      "link": ""
+    }
+  ],
+  "organisations": [
+    {
+      "name": "UNDP",
+      "link": ""
+    },
+    {
+      "name": "UN Women",
+      "link": ""
+    },
+    {
+      "name": "Samsung",
+      "link": ""
+    },
+    {
+      "name": "Google",
+      "link": ""
+    },
+    {
+      "name": "NPR",
+      "link": ""
+    },
+    {
+      "name": "Al Jazeera Contrast VR",
+      "link": ""
+    },
+    {
+      "name": "KCRW",
+      "link": ""
+    },
+    {
+      "name": "Fast Company",
+      "link": ""
+    },
+    {
+      "name": "72andSunny",
+      "link": ""
+    },
+    {
+      "name": "Viacom · MTV",
+      "link": ""
+    },
+    {
+      "name": "Philips",
+      "link": ""
+    },
+    {
+      "name": "Xiaomi",
+      "link": ""
+    },
+    {
+      "name": "Tata Motors",
+      "link": ""
+    },
+    {
+      "name": "Bacardi",
+      "link": ""
+    },
+    {
+      "name": "Gulf Oil",
+      "link": ""
+    },
+    {
+      "name": "USC Annenberg",
+      "link": ""
+    }
+  ]
 }
