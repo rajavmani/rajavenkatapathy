@@ -1,0 +1,26 @@
+HOW TO EDIT YOUR WEBSITE
+========================
+
+Your site is 4 files plus 2 folders. You only ever touch 3 things:
+
+1. COLOURS AND FONTS  ->  style.css  (the first 20 lines, marked "EDIT COLOURS AND FONTS HERE")
+   Change a hex code, e.g. --accent: #0d6b62;  ->  --accent: #b03a2e;
+   Find colour codes at https://htmlcolorcodes.com
+
+2. VIDEOS, PHOTOS, LINKS  ->  content.js
+   - Latest work slider (top of the page): 5 or more videos
+   - Video wall slider (Reels): 6 or more videos
+   - Field photo slider (About section)
+   To add a video: copy one { ... }, block, paste it, change the words.
+   For YouTube, paste only the ID: in https://www.youtube.com/watch?v=AbC123xyz the ID is AbC123xyz
+
+3. TEXT  ->  index.html
+   Every sentence on the page is in this file. Search for the words (Ctrl/Cmd + F) and type over them.
+   Only change the words between the < > tags, not the tags themselves.
+
+Photos go in /images, video files in /videos (each under 25 MB).
+Keep photos under ~400 KB each: compress them free at https://squoosh.app
+
+Don't edit script.js.
+
+After you save a change on GitHub, the live site updates in about a minute.
