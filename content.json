@@ -7,7 +7,7 @@
     "intro2": "I build campaigns and advocacy on complex global challenges, turning them into simple, human stories for every screen, from Reels to VR and whatever comes next.",
     "years": "12+ years in advertising, brand building, international development, non-profit advocacy and new media.",
     "photo": "images/raja-dp.png",
-    "photoCaption": "Raja Venkatapathy Mani · Digital Media Specialist, UNDP"
+    "photoCaption": "UN HQ"
   },
   "numbers": [
     {
@@ -24,7 +24,7 @@
     },
     {
       "value": "12 yrs",
-      "label": "in communications, from advertising agency to the United Nations"
+      "label": "in marketing & communications, from advertising agency to the United Nations"
     }
   ],
   "latest": [
@@ -36,12 +36,7 @@
         "Climate",
         "Instagram"
       ],
-      "role": "Concept, script and edit for UNDP's global Instagram",
-      "result": "",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "role": "Concept, script and edit for UNDP's global Instagram"
     },
     {
       "title": "Second piece",
@@ -51,12 +46,7 @@
         "Gender equality",
         "YouTube"
       ],
-      "role": "Your role in one line",
-      "result": "",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "role": "Your role in one line"
     },
     {
       "title": "Third piece",
@@ -65,12 +55,7 @@
         "Film",
         "Crisis"
       ],
-      "role": "Your role in one line",
-      "result": "",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "role": "Your role in one line"
     },
     {
       "title": "Fourth piece",
@@ -79,12 +64,7 @@
         "Campaign",
         "Oceans"
       ],
-      "role": "Your role in one line",
-      "result": "",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "role": "Your role in one line"
     },
     {
       "title": "Fifth piece",
@@ -93,62 +73,33 @@
         "Reel",
         "Global Goals"
       ],
-      "role": "Your role in one line",
-      "result": "",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "role": "Your role in one line"
     }
   ],
   "reels": [
     {
       "title": "Reel title",
-      "tag": "Climate",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "tag": "Climate"
     },
     {
       "title": "Reel title",
-      "tag": "Gender",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "tag": "Gender"
     },
     {
       "title": "Reel title",
-      "tag": "Poverty",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "tag": "Poverty"
     },
     {
       "title": "Reel title",
-      "tag": "Crisis",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "tag": "Crisis"
     },
     {
       "title": "Reel title",
-      "tag": "Oceans",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "tag": "Oceans"
     },
     {
       "title": "Reel title",
-      "tag": "Global Goals",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "tag": "Global Goals"
     }
   ],
   "about": {
@@ -186,19 +137,10 @@
       }
     ]
   },
-  "caseImages": {
-    "undpGlobal": "",
-    "undpIndia": "",
-    "deported": "",
-    "counting": "",
-    "syria": ""
-  },
   "travelPhoto": "images/travel.jpg",
   "contact": {
     "line": "I’m open to talk about communications, campaigns, social media and digital, across the UN system, international organisations, brands and tech.",
-    "email": "raja@rajavenkatapathy.com",
-    "linkedin": "",
-    "cv": ""
+    "email": "raja@rajavenkatapathy.com"
   },
   "wakelet": "https://wakelet.com/wake/-hoKD1NmWkkzTqJGR6X56"
 }
