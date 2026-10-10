@@ -11,7 +11,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230d6b62'/%3E%3Ctext x='50%25' y='60%25' text-anchor='middle' font-family='Arial' font-weight='700' font-size='30' fill='%23ffffff'%3ERV%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,9 +22,9 @@
     <a class="name" href="#top">Raja Venkatapathy Mani<span>.</span></a>
     <ul>
       <li><a href="#latest">Latest</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#work">Work</a></li>
       <li><a href="#videos">Videos</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#recognition">Recognition</a></li>
       <li class="keep"><a href="#contact">Contact</a></li>
     </ul>
@@ -49,7 +49,7 @@
     </figure>
   </header>
 
-  <div class="creds" aria-label="Highlights">
+  <div class="creds" id="creds" aria-label="Highlights">
     <b>UNDP</b><b>Samsung</b><b>UN Women</b><b class="hl">Webby Award Winner</b><b class="hl">Emmy Finalist</b><b>72andSunny</b><b>Google Daydream</b><b>USC Annenberg</b>
   </div>
 
@@ -63,36 +63,25 @@
     </div>
   </section>
 
-  <!-- LATEST WORK: video slider (edit videos in content.js) -->
-  <section class="latest" id="latest" aria-labelledby="latest-h">
+  <!-- LATEST WORK: landscape slider (edit in Pages CMS) -->
+  <section class="latest" id="latest" aria-labelledby="latest-h" style="padding-bottom:clamp(40px,5vw,64px)">
     <div id="latest-slider">
       <div class="slider-head">
-        <div><span class="label">Updated as new work goes live</span><h2 id="latest-h" style="font-size:clamp(2rem,4.4vw,3.4rem);margin-top:8px">Latest work</h2></div>
+        <div><span class="label">Updated as new work goes live</span><h2 id="latest-h" class="slider-title">Latest work</h2></div>
         <div class="arrows"><span class="count"></span><button type="button" class="arrow prev" aria-label="Previous">←</button><button type="button" class="arrow next" aria-label="Next">→</button></div>
       </div>
       <div class="track"></div>
     </div>
   </section>
 
-  <!-- ABOUT + FIELD PHOTO SLIDER -->
-  <section id="about" aria-labelledby="about-h" style="padding-top:0">
-    <div class="about">
-      <div class="field" id="field" aria-label="Photos from the road">
-        <span class="field-tag">On the road</span>
-        <div class="slides"></div>
-        <p class="cap" aria-live="polite"></p>
-        <div class="bars"></div>
+  <!-- LATEST REELS: vertical slider (edit in Pages CMS) -->
+  <section class="reels latest-reels" id="latest-reels" aria-labelledby="lreels-h" style="padding-top:0">
+    <div id="lreels-slider">
+      <div class="slider-head">
+        <div><span class="label">Vertical · newest first</span><h2 id="lreels-h" class="slider-title">Latest reels</h2></div>
+        <div class="arrows"><span class="count"></span><button type="button" class="arrow prev" aria-label="Previous">←</button><button type="button" class="arrow next" aria-label="Next">→</button></div>
       </div>
-      <div>
-        <span class="label">About</span>
-        <h2 id="about-h">12 years of telling stories that matter</h2>
-        <div class="copy" id="aboutCopy">
-          <p>I started in 2013 at a digital marketing agency, launching campaigns for Philips, CaratLane and Bigbasket. It taught me what makes people click, watch and share.</p>
-          <p>A master’s in New Media Storytelling at USC Annenberg took me to Los Angeles. There I produced immersive journalism for NPR, Al Jazeera, KCRW and Google, worked on advocacy campaigns at 72andSunny, and made a VR documentary on deportation that won a Webby Award.</p>
-          <p>Since 2019 I’ve brought that mix to the United Nations Development Programme (UNDP), first in New Delhi and now on its global channels in New York. I plan, write, shoot and edit campaigns on climate change, gender equality, poverty, crisis and digital transformation for audiences worldwide.</p>
-          <p>I work where strategy meets creativity. I write the brief, shape the idea, plan the distribution, make the film, and read the data that shows what worked.</p>
-        </div>
-      </div>
+      <div class="track"></div>
     </div>
   </section>
 
@@ -109,19 +98,16 @@
     </div>
   </section>
 
-  <!-- NEW MEDIA LAB -->
-  <section aria-labelledby="lab-h" style="padding-top:0">
-    <div class="lab">
-      <span class="label">New media lab</span>
-      <h2 id="lab-h">Always early to the next format</h2>
-      <p style="max-width:58ch">Platforms change every year. The job stays the same: find where the audience is, and tell the story in the language of that screen.</p>
-      <div class="grid">
-        <div class="item"><h3>Immersive &amp; spatial</h3><p>360° and VR documentary since 2017, from Google Daydream to a Webby. Ready for spatial video and AR.</p><span class="proof">Webby 2019 · Emmy finalist · Google Daydream Innovator</span></div>
-        <div class="item"><h3>New platforms, early</h3><p>Bringing an institution’s voice to new platforms and building audiences there from the start.</p><span class="proof">UNDP growth across Instagram, Facebook and Threads</span></div>
-        <div class="item"><h3>Creator-led storytelling</h3><p>Working the way creators do: vertical-first, personality-led, built for the feed.</p><span class="proof">My own travel channel, My Highway Tales</span></div>
-        <div class="item"><h3>Data-driven creative</h3><p>Social listening and analytics that shape what gets made, not just what gets reported.</p><span class="proof">Meltwater · Keyhole · Meta and Google Analytics</span></div>
+  <!-- VIDEO WALL: vertical slider (edit in Pages CMS) -->
+  <section class="reels" id="videos" aria-labelledby="videos-h" style="padding-top:0">
+    <div id="reels-slider">
+      <div class="slider-head">
+        <div><span class="label">Made for UNDP’s global and India channels</span><h2 id="videos-h" style="font-size:clamp(2.3rem,5.2vw,4.1rem);margin-top:8px">Video wall</h2></div>
+        <div class="arrows"><span class="count"></span><button type="button" class="arrow prev" aria-label="Previous">←</button><button type="button" class="arrow next" aria-label="Next">→</button></div>
       </div>
+      <div class="track"></div>
     </div>
+    <div class="row" style="margin-top:22px"><a class="btn" id="wakelet" href="#" target="_blank" rel="noopener">See all videos ↗</a></div>
   </section>
 
   <!-- WORK EXPERIENCE -->
@@ -190,18 +176,6 @@
     </div>
   </section>
 
-  <!-- VIDEO WALL: Reels slider (edit videos in content.js) -->
-  <section class="reels" id="videos" aria-labelledby="videos-h" style="padding-top:0">
-    <div id="reels-slider">
-      <div class="slider-head">
-        <div><span class="label">Made for UNDP’s global and India channels</span><h2 id="videos-h" style="font-size:clamp(2.4rem,5.8vw,4.6rem);margin-top:8px">Video wall</h2></div>
-        <div class="arrows"><span class="count"></span><button type="button" class="arrow prev" aria-label="Previous">←</button><button type="button" class="arrow next" aria-label="Next">→</button></div>
-      </div>
-      <div class="track"></div>
-    </div>
-    <div class="row" style="margin-top:22px"><a class="btn" id="wakelet" href="#" target="_blank" rel="noopener">See all videos ↗</a></div>
-  </section>
-
   <!-- WRITING -->
   <section id="writing" aria-labelledby="writing-h" style="padding-top:0">
     <div class="head"><h2 id="writing-h">Writing</h2><p>Long-form stories on climate and inequality, published by UNDP.</p></div>
@@ -224,6 +198,28 @@
     </div>
   </section>
 
+  <!-- ABOUT + FIELD PHOTO SLIDER -->
+  <section id="about" aria-labelledby="about-h" style="padding-top:0">
+    <div class="about">
+      <div class="field" id="field" aria-label="Photos from the road">
+        <span class="field-tag">On the road</span>
+        <div class="slides"></div>
+        <p class="cap" aria-live="polite"></p>
+        <div class="bars"></div>
+      </div>
+      <div>
+        <span class="label">About</span>
+        <h2 id="about-h">12 years of telling stories that matter</h2>
+        <div class="copy" id="aboutCopy">
+          <p>I started in 2013 at a digital marketing agency, launching campaigns for Philips, CaratLane and Bigbasket. It taught me what makes people click, watch and share.</p>
+          <p>A master’s in New Media Storytelling at USC Annenberg took me to Los Angeles. There I produced immersive journalism for NPR, Al Jazeera, KCRW and Google, worked on advocacy campaigns at 72andSunny, and made a VR documentary on deportation that won a Webby Award.</p>
+          <p>Since 2019 I’ve brought that mix to the United Nations Development Programme (UNDP), first in New Delhi and now on its global channels in New York. I plan, write, shoot and edit campaigns on climate change, gender equality, poverty, crisis and digital transformation for audiences worldwide.</p>
+          <p>I work where strategy meets creativity. I write the brief, shape the idea, plan the distribution, make the film, and read the data that shows what worked.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- RECOGNITION -->
   <section id="recognition" aria-labelledby="rec-h" style="padding-top:0">
     <div class="head"><h2 id="rec-h">Recognition</h2><p>Awards for documentary, interactive and campaign work.</p></div>
@@ -237,9 +233,24 @@
       <li><span class="yr">2014</span><strong>Drive with MTV, Season 3</strong><span>Winner. Viacom’s social media travel show; 10M+ impressions for team #NanoNorth</span></li>
     </ul>
     <div class="wallblock"><span class="label">Featured in</span>
-      <div class="wall"><b>AdWeek</b><b>Campaign</b><b>The Muse by Clio</b><b>Little Black Book</b><b>BuzzFeed</b><b>Mitú</b><b>Argonaut News</b></div></div>
+      <div class="wall" id="featured"><b>AdWeek</b><b>Campaign</b><b>The Muse by Clio</b><b>Little Black Book</b><b>BuzzFeed</b><b>Mitú</b><b>Argonaut News</b></div></div>
     <div class="wallblock"><span class="label">Organisations I’ve worked with</span>
-      <div class="wall"><b>UNDP</b><b>UN Women</b><b>Samsung</b><b>Google</b><b>NPR</b><b>Al Jazeera Contrast VR</b><b>KCRW</b><b>Fast Company</b><b>72andSunny</b><b>Viacom · MTV</b><b>Philips</b><b>Xiaomi</b><b>Tata Motors</b><b>Bacardi</b><b>Gulf Oil</b><b>USC Annenberg</b></div></div>
+      <div class="wall" id="orgs"><b>UNDP</b><b>UN Women</b><b>Samsung</b><b>Google</b><b>NPR</b><b>Al Jazeera Contrast VR</b><b>KCRW</b><b>Fast Company</b><b>72andSunny</b><b>Viacom · MTV</b><b>Philips</b><b>Xiaomi</b><b>Tata Motors</b><b>Bacardi</b><b>Gulf Oil</b><b>USC Annenberg</b></div></div>
+  </section>
+
+  <!-- NEW MEDIA LAB -->
+  <section aria-labelledby="lab-h" style="padding-top:0">
+    <div class="lab">
+      <span class="label">New media lab</span>
+      <h2 id="lab-h">Always early to the next format</h2>
+      <p style="max-width:58ch">Platforms change every year. The job stays the same: find where the audience is, and tell the story in the language of that screen.</p>
+      <div class="grid">
+        <div class="item"><h3>Immersive &amp; spatial</h3><p>360° and VR documentary since 2017, from Google Daydream to a Webby. Ready for spatial video and AR.</p><span class="proof">Webby 2019 · Emmy finalist · Google Daydream Innovator</span></div>
+        <div class="item"><h3>New platforms, early</h3><p>Bringing an institution’s voice to new platforms and building audiences there from the start.</p><span class="proof">UNDP growth across Instagram, Facebook and Threads</span></div>
+        <div class="item"><h3>Creator-led storytelling</h3><p>Working the way creators do: vertical-first, personality-led, built for the feed.</p><span class="proof">My own travel channel, My Highway Tales</span></div>
+        <div class="item"><h3>Data-driven creative</h3><p>Social listening and analytics that shape what gets made, not just what gets reported.</p><span class="proof">Meltwater · Keyhole · Meta and Google Analytics</span></div>
+      </div>
+    </div>
   </section>
 
   <!-- TOOLKIT -->
