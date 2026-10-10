@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Video wall | Raja Venkatapathy Mani</title>
+<meta name="description" content="Videos, Reels and films by Raja Venkatapathy Mani for UNDP and other organisations.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230d6b62'/%3E%3Ctext x='50%25' y='60%25' text-anchor='middle' font-family='Arial' font-weight='700' font-size='30' fill='%23ffffff'%3ERV%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&family=Fraunces:ital,opsz,wght@1,9..144,500..700&family=Syne:wght@700..800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Video wall page. The videos come from your Wakelet. Change the Wakelet link in Pages CMS. -->
+<div class="wrap">
+  <nav class="nav" aria-label="Main"><div class="in">
+    <a class="name" href="index.html">Raja Venkatapathy Mani<span>.</span></a>
+    <ul>
+      <li class="keep"><a href="index.html">← Back to portfolio</a></li>
+      <li class="keep"><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="wallpage">
+    <span class="label">Made for UNDP’s global and India channels</span>
+    <h1>Video wall</h1>
+    <p>Reels, explainers and films on climate, gender equality, poverty, crisis and the Global Goals.</p>
+    <iframe class="wakeframe" id="wake" title="Video wall" loading="lazy" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>
+  </header>
+  <footer class="label"><span>© 2026 Raja Venkatapathy Mani</span><a href="index.html">Back to portfolio</a></footer>
+</div>
+<script>
+(function(){
+  var fallback='https://wakelet.com/wake/-hoKD1NmWkkzTqJGR6X56';
+  function show(url){
+    var m=String(url||fallback).match(/wake[s]?\/([\w-]+)/);
+    document.getElementById('wake').src='https://embed.wakelet.com/wakes/'+(m?m[1]:'-hoKD1NmWkkzTqJGR6X56')+'/grid';
+  }
+  fetch('content.json',{cache:'no-store'}).then(function(r){return r.json();}).then(function(C){show(C.wakelet);}).catch(function(){show();});
+})();
+</script>
+</body>
+</html>
