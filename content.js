@@ -5,7 +5,7 @@
      youtube: "dQw4w9WgXcQ"        -> the ID after "v=" in a YouTube link. Plays on your site.
      mp4:     "videos/clip.mp4"    -> a video file in the /videos folder (under 25 MB). Plays on your site.
      link:    "https://..."        -> any other post (Instagram, LinkedIn, X). Opens in a new tab.
-   thumb   = the cover image, in the /images folder.
+   thumb   = the cover image, in the /images folder. Leave it empty for YouTube: the cover is added automatically.
    preview = optional short silent .mp4 that plays when someone hovers.
 
    To add a video: copy one { ... }, block, paste it, change the details.
@@ -25,37 +25,37 @@ window.SITE = {
       tags: ["Reel", "Climate", "Instagram"],
       role: "Concept, script and edit for UNDP's global Instagram",
       result: "1.2M views",
-      thumb: "images/latest-01.jpg", youtube: "", mp4: "", link: "", preview: "" },
+      thumb: "", youtube: "", mp4: "", link: "", preview: "" },
 
     { title: "Second piece", date: "Month Year",
       tags: ["Explainer", "Gender equality", "YouTube"],
       role: "Your role in one line", result: "",
-      thumb: "images/latest-02.jpg", youtube: "", mp4: "", link: "", preview: "" },
+      thumb: "", youtube: "", mp4: "", link: "", preview: "" },
 
     { title: "Third piece", date: "Month Year",
       tags: ["Film", "Crisis", "LinkedIn"],
       role: "Your role in one line", result: "",
-      thumb: "images/latest-03.jpg", youtube: "", mp4: "", link: "", preview: "" },
+      thumb: "", youtube: "", mp4: "", link: "", preview: "" },
 
     { title: "Fourth piece", date: "Month Year",
       tags: ["Campaign", "Oceans", "Instagram"],
       role: "Your role in one line", result: "",
-      thumb: "images/latest-04.jpg", youtube: "", mp4: "", link: "", preview: "" },
+      thumb: "", youtube: "", mp4: "", link: "", preview: "" },
 
     { title: "Fifth piece", date: "Month Year",
       tags: ["Reel", "Global Goals", "Instagram"],
       role: "Your role in one line", result: "",
-      thumb: "images/latest-05.jpg", youtube: "", mp4: "", link: "", preview: "" }
+      thumb: "", youtube: "", mp4: "", link: "", preview: "" }
   ],
 
   /* ---- 2. VIDEO WALL: vertical Reels slider (6 or more) ---- */
   reels: [
-    { title: "Reel title", tag: "Climate",        thumb: "images/reel-01.jpg", youtube: "", mp4: "", link: "" },
-    { title: "Reel title", tag: "Gender",         thumb: "images/reel-02.jpg", youtube: "", mp4: "", link: "" },
-    { title: "Reel title", tag: "Poverty",        thumb: "images/reel-03.jpg", youtube: "", mp4: "", link: "" },
-    { title: "Reel title", tag: "Crisis",         thumb: "images/reel-04.jpg", youtube: "", mp4: "", link: "" },
-    { title: "Reel title", tag: "Oceans",         thumb: "images/reel-05.jpg", youtube: "", mp4: "", link: "" },
-    { title: "Reel title", tag: "Global Goals",   thumb: "images/reel-06.jpg", youtube: "", mp4: "", link: "" }
+    { title: "Reel title", tag: "Climate",        thumb: "", youtube: "", mp4: "", link: "" },
+    { title: "Reel title", tag: "Gender",         thumb: "", youtube: "", mp4: "", link: "" },
+    { title: "Reel title", tag: "Poverty",        thumb: "", youtube: "", mp4: "", link: "" },
+    { title: "Reel title", tag: "Crisis",         thumb: "", youtube: "", mp4: "", link: "" },
+    { title: "Reel title", tag: "Oceans",         thumb: "", youtube: "", mp4: "", link: "" },
+    { title: "Reel title", tag: "Global Goals",   thumb: "", youtube: "", mp4: "", link: "" }
   ],
 
   /* ---- 3. PHOTO SLIDER: in the About section ---- */
