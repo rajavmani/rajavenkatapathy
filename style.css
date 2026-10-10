@@ -63,8 +63,10 @@ h1,h2,h3{font-family:var(--font-headings);font-weight:800;text-transform:upperca
 .ph.empty .miss{display:grid}
 
 /* intro */
-.intro{display:grid;grid-template-columns:minmax(0,720px) 230px;justify-content:start;gap:24px 56px;align-items:center;padding-block:clamp(28px,4.5vw,56px) clamp(22px,3vw,36px)}
-.intro .lede{margin-top:18px}
+.intro{display:grid;grid-template-columns:minmax(0,820px) 220px;justify-content:start;gap:24px 64px;align-items:center;padding-block:clamp(28px,4.5vw,56px) clamp(22px,3vw,36px)}
+.intro .lede{margin-top:14px}
+.intro .lead1{margin-top:22px;font-size:clamp(1.25rem,2vw,1.5rem);font-weight:500;color:var(--text)}
+.intro h1 .l1,.intro h1 .l2{display:block}
 .portrait{margin:0;display:grid;gap:10px}
 .portrait .ph{aspect-ratio:4/5;border:1px solid var(--lines)}
 .field-tag{position:absolute;top:14px;left:14px;z-index:3;font-family:var(--font-labels);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;background:var(--scrim);color:var(--photo-text);padding:4px 8px}
@@ -72,10 +74,11 @@ h1,h2,h3{font-family:var(--font-headings);font-weight:800;text-transform:upperca
 @media (max-width:860px){.portrait{max-width:220px;grid-row:1}}
 .eyebrow{display:flex;gap:10px;align-items:center;margin-bottom:20px}
 .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);flex:none}
-.intro h1{font-size:clamp(2.1rem,4vw,3.6rem);font-weight:900}
-.intro h1 span{color:var(--accent)}
-.lede{font-size:clamp(1.1rem,1.6vw,1.28rem);line-height:1.5;max-width:46ch}
-.third{margin-top:12px;color:var(--text-soft);font-size:1rem;max-width:50ch}
+.intro h1{font-size:clamp(2rem,3.7vw,3.4rem);font-weight:900;text-wrap:initial}
+.intro h1 .l1{color:var(--text)}
+.intro h1 .l2{color:var(--accent)}
+.lede{font-size:clamp(1.05rem,1.4vw,1.18rem);line-height:1.55;max-width:62ch;color:var(--text-soft)}
+.third{margin-top:14px;color:var(--text-soft);font-size:.95rem;max-width:62ch;font-style:italic}
 .intro .row{margin-top:24px}
 @media (max-width:860px){.intro{grid-template-columns:minmax(0,1fr)}}
 
