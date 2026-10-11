@@ -17,7 +17,6 @@
     },
     {
       "name": "Samsung",
-      "link": "",
       "highlight": false
     },
     {
@@ -27,17 +26,14 @@
     },
     {
       "name": "Webby Award Winner",
-      "link": "",
       "highlight": true
     },
     {
       "name": "72andSunny",
-      "link": "",
       "highlight": false
     },
     {
       "name": "Google Daydream",
-      "link": "",
       "highlight": false
     },
     {
@@ -66,14 +62,15 @@
   ],
   "latest": [
     {
-      "title": "Your newest piece",
-      "date": "Month Year",
+      "title": "Antarctica Travel Film",
+      "date": "2024",
       "tags": [
         "Reel",
         "Climate",
         "Instagram"
       ],
-      "role": "Concept, script and edit for UNDP's global Instagram"
+      "role": "Concept, script and edit for UNDP's global Instagram",
+      "youtube": "https://www.youtube.com/watch?v=3z6hw3ojcY4&t=56s"
     },
     {
       "title": "Second piece",
@@ -116,43 +113,23 @@
   "latestReels": [
     {
       "title": "Newest reel",
-      "tag": "Climate",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "tag": "Climate"
     },
     {
       "title": "Reel title",
-      "tag": "Gender",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "tag": "Gender"
     },
     {
       "title": "Reel title",
-      "tag": "Oceans",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "tag": "Oceans"
     },
     {
       "title": "Reel title",
-      "tag": "Crisis",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "tag": "Crisis"
     },
     {
       "title": "Reel title",
-      "tag": "Global Goals",
-      "youtube": "",
-      "link": "",
-      "video": "",
-      "thumb": ""
+      "tag": "Global Goals"
     }
   ],
   "reels": [
@@ -182,33 +159,12 @@
     }
   ],
   "graphics": [
-    {
-      "image": "",
-      "caption": "",
-      "link": ""
-    },
-    {
-      "image": "",
-      "caption": "",
-      "link": ""
-    },
-    {
-      "image": "",
-      "caption": "",
-      "link": ""
-    },
-    {
-      "image": "",
-      "caption": "",
-      "link": ""
-    },
-    {
-      "image": "",
-      "caption": "",
-      "link": ""
-    }
+    {},
+    {},
+    {},
+    {},
+    {}
   ],
-  "graphicsMore": "",
   "about": {
     "heading": "Telling stories that matter",
     "paragraphs": [
@@ -252,98 +208,75 @@
   "wakelet": "https://wakelet.com/wake/-hoKD1NmWkkzTqJGR6X56",
   "featuredIn": [
     {
-      "name": "AdWeek",
-      "link": ""
+      "name": "AdWeek"
     },
     {
-      "name": "Campaign",
-      "link": ""
+      "name": "Campaign"
     },
     {
-      "name": "The Muse by Clio",
-      "link": ""
+      "name": "The Muse by Clio"
     },
     {
-      "name": "Little Black Book",
-      "link": ""
+      "name": "Little Black Book"
     },
     {
-      "name": "BuzzFeed",
-      "link": ""
+      "name": "BuzzFeed"
     },
     {
-      "name": "Mitú",
-      "link": ""
+      "name": "Mitú"
     },
     {
-      "name": "Argonaut News",
-      "link": ""
+      "name": "Argonaut News"
     }
   ],
   "organisations": [
     {
-      "name": "UNDP",
-      "link": ""
+      "name": "UNDP"
     },
     {
-      "name": "UN Women",
-      "link": ""
+      "name": "UN Women"
     },
     {
-      "name": "Samsung",
-      "link": ""
+      "name": "Samsung"
     },
     {
-      "name": "Google",
-      "link": ""
+      "name": "Google"
     },
     {
-      "name": "NPR",
-      "link": ""
+      "name": "NPR"
     },
     {
-      "name": "Al Jazeera Contrast VR",
-      "link": ""
+      "name": "Al Jazeera Contrast VR"
     },
     {
-      "name": "KCRW",
-      "link": ""
+      "name": "KCRW"
     },
     {
-      "name": "Fast Company",
-      "link": ""
+      "name": "Fast Company"
     },
     {
-      "name": "72andSunny",
-      "link": ""
+      "name": "72andSunny"
     },
     {
-      "name": "Viacom · MTV",
-      "link": ""
+      "name": "Viacom · MTV"
     },
     {
-      "name": "Philips",
-      "link": ""
+      "name": "Philips"
     },
     {
-      "name": "Xiaomi",
-      "link": ""
+      "name": "Xiaomi"
     },
     {
-      "name": "Tata Motors",
-      "link": ""
+      "name": "Tata Motors"
     },
     {
-      "name": "Bacardi",
-      "link": ""
+      "name": "Bacardi"
     },
     {
-      "name": "Gulf Oil",
-      "link": ""
+      "name": "Gulf Oil"
     },
     {
-      "name": "USC Annenberg",
-      "link": ""
+      "name": "USC Annenberg"
     }
   ]
 }
