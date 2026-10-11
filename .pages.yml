@@ -49,23 +49,6 @@ content:
           - { name: value, label: Big number, type: string }
           - { name: label, label: Line under it, type: text }
 
-      - name: now
-        label: Now exploring (tech and trends you're using - update every month or two)
-        type: object
-        fields:
-          - { name: updated, label: "Updated (month and year)", type: string }
-          - { name: intro, label: Intro line, type: text }
-          - name: items
-            label: Items (4 work best)
-            type: object
-            list:
-              collapsible:
-                collapsed: true
-                summary: "{title}"
-            fields:
-              - { name: title, label: Title, type: string }
-              - { name: text, label: One or two lines, type: text }
-
       - name: latest
         label: Latest work (video slider at the top) - newest first
         type: object
@@ -127,23 +110,6 @@ content:
           - { name: link, label: "Link (optional) - e.g. the Instagram post", type: string }
 
       - { name: graphicsMore, label: "\"Click for more\" link under the graphics (e.g. your Instagram or a Behance page)", type: string }
-
-      - name: talent
-        label: Talent and creators you've worked with
-        type: object
-        fields:
-          - { name: intro, label: Intro line, type: text }
-          - name: people
-            label: People
-            type: object
-            list:
-              collapsible:
-                collapsed: true
-                summary: "{name}"
-            fields:
-              - { name: name, label: Name, type: string }
-              - { name: role, label: "Who they are (e.g. Actor · UNDP Goodwill Ambassador)", type: string }
-              - { name: link, label: "Link to the work with them (optional)", type: string }
 
       - name: about
         label: About section
