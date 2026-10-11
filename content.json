@@ -176,16 +176,20 @@
   ],
   "graphics": [
     {
-      "link": "https://www.instagram.com/p/Dc3bBqOiQvZ/"
+      "link": "https://www.instagram.com/p/Dc3bBqOiQvZ/",
+      "image": "images/graphic-1.jpg"
     },
     {
-      "link": "https://www.instagram.com/p/DYtQY6Cgiy2/"
+      "link": "https://www.instagram.com/p/DYtQY6Cgiy2/",
+      "image": "images/graphic-2.jpg"
     },
     {
-      "link": "https://www.instagram.com/p/Dc9rxwXk_Oc/"
+      "link": "https://www.instagram.com/p/Dc9rxwXk_Oc/",
+      "image": "images/graphic-3.jpg"
     },
     {
-      "link": "https://www.instagram.com/p/DVA7_u3D9pj/"
+      "link": "https://www.instagram.com/p/DVA7_u3D9pj/",
+      "image": "images/graphic-4.jpg"
     },
     {}
   ],
