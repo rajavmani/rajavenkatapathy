@@ -7,7 +7,7 @@
     "intro2": "I build campaigns and advocacy on complex global challenges, turning them into simple, human stories for every screen, from Reels to VR and whatever comes next.",
     "years": "12+ years in advertising, brand building, international development, non-profit advocacy and new media.",
     "photo": "images/raja-dp.png",
-    "photoCaption": "UN HQ"
+    "photoCaption": "UNITED NATIONS HQ"
   },
   "highlights": [
     {
@@ -60,28 +60,6 @@
       "label": "in marketing & communications, from advertising agency to the United Nations"
     }
   ],
-  "now": {
-    "updated": "October 2026",
-    "intro": "Platforms and formats change every month. I test new tools and trends early, then bring what works into campaigns.",
-    "items": [
-      {
-        "title": "AI in the workflow",
-        "text": "Using AI tools for research, scripting drafts, subtitles and versioning, so the team ships faster without losing the human voice."
-      },
-      {
-        "title": "Trends, fast",
-        "text": "Turning trending formats, sounds and memes into on-brand stories for serious topics like climate and poverty, while the trend is still live."
-      },
-      {
-        "title": "Creator-style storytelling",
-        "text": "Vertical-first, personality-led series built for the feed, not repurposed TV."
-      },
-      {
-        "title": "New platforms, early",
-        "text": "Testing new platforms and features as they launch, and building audiences there from day one."
-      }
-    ]
-  },
   "latest": [
     {
       "title": "Antarctica Travel Film",
@@ -187,61 +165,6 @@
     {},
     {}
   ],
-  "talent": {
-    "intro": "Goodwill Ambassadors, celebrities and creators I’ve worked with on UNDP campaigns: briefing, scripting, filming and getting content from idea to publish.",
-    "people": [
-      {
-        "name": "Nikolaj Coster-Waldau",
-        "role": "Actor · UNDP Goodwill Ambassador",
-        "link": ""
-      },
-      {
-        "name": "Yemi Alade",
-        "role": "Singer · UNDP Goodwill Ambassador",
-        "link": ""
-      },
-      {
-        "name": "Sylvia Earle",
-        "role": "Oceanographer",
-        "link": ""
-      },
-      {
-        "name": "Cody Simpson",
-        "role": "Singer and swimmer",
-        "link": ""
-      },
-      {
-        "name": "BIG OCEAN",
-        "role": "K-pop group",
-        "link": ""
-      },
-      {
-        "name": "Bhumi Pednekar",
-        "role": "Actor",
-        "link": ""
-      },
-      {
-        "name": "Sanjana Sanghi",
-        "role": "Actor",
-        "link": ""
-      },
-      {
-        "name": "Prajakta Koli",
-        "role": "Creator and actor",
-        "link": ""
-      },
-      {
-        "name": "Sarah-Jane Dias",
-        "role": "Actor",
-        "link": ""
-      },
-      {
-        "name": "Lucky Ali",
-        "role": "Singer",
-        "link": ""
-      }
-    ]
-  },
   "about": {
     "heading": "Telling stories that matter",
     "paragraphs": [
