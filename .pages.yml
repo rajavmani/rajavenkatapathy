@@ -50,7 +50,7 @@ content:
           - { name: label, label: Line under it, type: text }
 
       - name: latest
-        label: Featured work (landscape video slider) - best first
+        label: Featured work - second row (landscape videos) - best first
         type: object
         list:
           collapsible:
@@ -68,7 +68,7 @@ content:
           - { name: thumb, label: "Cover image (not needed for YouTube)", type: image }
 
       - name: latestReels
-        label: Featured reels (vertical slider under Featured work) - best first
+        label: Featured work - top row (vertical Reels) - best first
         type: object
         list:
           collapsible:
