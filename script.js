@@ -42,6 +42,12 @@
     var gm=$('graphicsMore'); if(gm&&C.graphicsMore){ gm.href=C.graphicsMore; gm.hidden=false; }
 
     slider('latest-slider',C.latest||[],'latest');
+    var N=C.now||{}; setText('nowUpdated',N.updated?'Updated '+N.updated:''); setRich('nowIntro',N.intro);
+    if(N.items&&N.items.length) $('nowItems').innerHTML=N.items.map(function(x){return '<div class="now-item"><h3>'+esc(x.title)+'</h3><p>'+md(x.text)+'</p></div>';}).join('');
+    else $('now').hidden=true;
+    var T=C.talent||{}; setRich('talentIntro',T.intro);
+    if(T.people&&T.people.length) $('talentList').innerHTML=T.people.filter(function(p){return p&&p.name;}).map(function(p){ var n=esc(p.name); return '<div class="person">'+(p.link?'<a href="'+esc(p.link)+'" target="_blank" rel="noopener">'+n+'</a>':'<b>'+n+'</b>')+(p.role?'<span>'+esc(p.role)+'</span>':'')+'</div>'; }).join('');
+    else $('talent').hidden=true;
     slider('lreels-slider',C.latestReels||[],'reel');
     slider('reels-slider',C.reels||[],'reel');
     slider('graphics-slider',C.graphics||[],'graphic');
