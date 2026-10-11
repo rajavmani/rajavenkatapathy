@@ -96,8 +96,14 @@ h1,h2,h3{font-family:var(--font-headings);font-weight:800;letter-spacing:-.025em
 .track>*{scroll-snap-align:start}
 
 /* latest work slider */
-.latest .track{grid-auto-columns:62%}
-@media (max-width:900px){.latest .track{grid-auto-columns:86%}}
+section.latest{padding-top:clamp(44px,6vw,80px)}
+.latest .track{grid-auto-columns:calc((100% - 2*18px)/2.4)}
+.latest .card{gap:10px}
+.latest .card h3{font-size:clamp(1.15rem,1.6vw,1.4rem);line-height:1.2}
+.latest .card .role{font-size:.95rem}
+.latest .play{width:46px;height:46px;left:14px;bottom:14px}
+@media (max-width:900px){.latest .track{grid-auto-columns:calc((100% - 18px)/1.6)}}
+@media (max-width:600px){.latest .track{grid-auto-columns:84%}}
 .card{display:grid;gap:12px;text-decoration:none;color:inherit;background:none;border:0;padding:0;text-align:left;font:inherit;cursor:pointer}
 .card .ph{aspect-ratio:16/9;border:1px solid var(--lines)}
 .card:hover .ph{border-color:var(--accent)}
