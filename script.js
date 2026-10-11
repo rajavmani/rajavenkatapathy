@@ -78,13 +78,14 @@
   // ---------- video pop-up ----------
   var player=$('player'), frame=player.querySelector('.frame');
   function open(v,kind){
-    var id=ytId(v.youtube);
+    var id=ytId(v.youtube), ig=String(v.link||'').match(/instagram\.com\/(?:p|reels?|tv)\/([\w-]+)/);
     if(kind==='graphic'){ if(v.image){ frame.innerHTML='<img src="'+esc(v.image)+'" alt="'+esc(v.caption)+'">'; } else if(v.link){ window.open(v.link,'_blank','noopener'); return; } else return; }
     else if(id){ frame.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&rel=0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen title="'+esc(v.title)+'"></iframe>'; }
     else if(v.video){ frame.innerHTML='<video src="'+esc(v.video)+'" controls autoplay playsinline></video>'; }
+    else if(ig){ frame.innerHTML='<iframe src="https://www.instagram.com/p/'+ig[1]+'/embed/" allow="autoplay; encrypted-media; fullscreen" allowfullscreen scrolling="no" title="'+esc(v.title)+'"></iframe>'; kind='insta'; }
     else if(v.link){ window.open(v.link,'_blank','noopener'); return; }
     else return;
-    player.classList.toggle('vertical',kind==='vertical'); player.classList.toggle('graphic',kind==='graphic');
+    player.classList.toggle('vertical',kind==='vertical'); player.classList.toggle('graphic',kind==='graphic'); player.classList.toggle('insta',kind==='insta');
     player.hidden=false; player.querySelector('.close').focus();
   }
   function close(){ player.hidden=true; frame.innerHTML=''; }
