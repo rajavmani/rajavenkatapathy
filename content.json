@@ -81,7 +81,7 @@
         "YouTube"
       ],
       "role": "Your role in one line",
-      "youtube": " https://www.youtube.com/watch?v=VwPvHEC4ELA "
+      "youtube": "https://www.youtube.com/watch?v=VwPvHEC4ELA"
     },
     {
       "title": "Snow Leopard Conservation",
@@ -91,7 +91,7 @@
         "Environemnt "
       ],
       "role": "Your role in one line",
-      "youtube": " https://www.youtube.com/watch?v=wL7QLM83CDo"
+      "youtube": "https://www.youtube.com/watch?v=wL7QLM83CDo"
     },
     {
       "title": "Save Our Ocean",
@@ -101,7 +101,8 @@
         "Oceans"
       ],
       "role": "Your role in one line",
-      "link": "https://www.instagram.com/p/Cfe2Yfchmr6/ "
+      "link": "https://www.instagram.com/p/Cfe2Yfchmr6/",
+      "thumb": "images/ig-Cfe2Yfchmr6.jpg"
     },
     {
       "title": "Fifth piece",
@@ -117,7 +118,8 @@
     {
       "title": "Beat Plastic Pollution ",
       "tag": "Environment ",
-      "link": "https://www.instagram.com/p/CtGXkMUNTeS/"
+      "link": "https://www.instagram.com/p/CtGXkMUNTeS/",
+      "thumb": "images/ig-CtGXkMUNTeS.jpg"
     },
     {
       "title": "Actor Bhumi Pednekar at UNGA 81",
@@ -154,36 +156,43 @@
     {
       "title": "Oceans - Cody Simpson",
       "tag": "Climate",
-      "link": "https://www.instagram.com/p/DZV6VAZPQZp/"
+      "link": "https://www.instagram.com/p/DZV6VAZPQZp/",
+      "thumb": "images/ig-DZV6VAZPQZp.jpg"
     },
     {
       "title": "5 things about Plastic Pollution",
       "tag": "Environment",
-      "link": "https://www.instagram.com/p/DbANOm7iKKM/"
+      "link": "https://www.instagram.com/p/DbANOm7iKKM/",
+      "thumb": "images/ig-DbANOm7iKKM.jpg"
     },
     {
       "title": "Generation 17 - Soumya",
       "tag": "Gender",
-      "link": "https://www.instagram.com/p/DPB8EGVAPz-/"
+      "link": "https://www.instagram.com/p/DPB8EGVAPz-/",
+      "thumb": "images/ig-DPB8EGVAPz-.jpg"
     },
     {
       "title": "Actor Sanjana Sanghi",
       "tag": "Crisis",
-      "link": "https://www.instagram.com/p/Ddtn43MtLaW/"
+      "link": "https://www.instagram.com/p/Ddtn43MtLaW/",
+      "thumb": "images/ig-Ddtn43MtLaW.jpg"
     },
     {
       "title": "Gender Equality",
       "tag": "Gender",
-      "link": "https://www.instagram.com/p/DVmWbY-Fov7/"
+      "link": "https://www.instagram.com/p/DVmWbY-Fov7/",
+      "thumb": "images/ig-DVmWbY-Fov7.jpg"
     },
     {
       "title": "Partners at Core",
       "tag": "UN Partnerships",
-      "link": "https://www.instagram.com/p/Ddl4nsfksFO/"
+      "link": "https://www.instagram.com/p/Ddl4nsfksFO/",
+      "thumb": "images/ig-Ddl4nsfksFO.jpg"
     },
     {
       "title": "Global Goals",
-      "link": "https://www.instagram.com/p/CxYNruRu4dJ/"
+      "link": "https://www.instagram.com/p/CxYNruRu4dJ/",
+      "thumb": "images/ig-CxYNruRu4dJ.jpg"
     }
   ],
   "graphics": [
@@ -204,7 +213,8 @@
       "link": "https://www.instagram.com/p/DVA7_u3D9pj/"
     },
     {
-      "link": "https://www.instagram.com/p/DeTW9acGkGm/"
+      "link": "https://www.instagram.com/p/DeTW9acGkGm/",
+      "image": "images/ig-DeTW9acGkGm.jpg"
     }
   ],
   "about": {
