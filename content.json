@@ -114,39 +114,44 @@
     {
       "title": "Actor Bhumi Pednekar at UNGA 81",
       "tag": "Climate",
-      "link": " https://www.instagram.com/p/DduCJkhxarT/ "
+      "link": "https://www.instagram.com/p/DduCJkhxarT/",
+      "thumb": "images/reel-bhumi.jpg"
     },
     {
-      "title": "Antarctica Glaciers Melting ",
+      "title": "Antarctica Glaciers Melting",
       "tag": "Oceans",
-      "link": "https://www.instagram.com/reels/DHcFoYyIBJA/ "
+      "link": "https://www.instagram.com/reels/DHcFoYyIBJA/",
+      "thumb": "images/reel-antarctica.jpg"
     },
     {
       "title": "Actor Prajakta Koli UNGA 80",
-      "tag": "Climate ",
-      "link": " https://www.instagram.com/p/DO8zAw-jUpT/  "
+      "tag": "Climate",
+      "link": "https://www.instagram.com/p/DO8zAw-jUpT/",
+      "thumb": "images/reel-prajakta.jpg"
     },
     {
       "title": "Big Ocean - Inclusive Music",
       "tag": "Inclusive",
-      "link": "https://www.instagram.com/p/DdonoK2RTcj/"
+      "link": "https://www.instagram.com/p/DdonoK2RTcj/",
+      "thumb": "images/reel-bigocean.jpg"
     },
     {
       "title": "Conserving Vicunas in Argentina",
       "tag": "Environment",
-      "link": " https://www.instagram.com/reels/DaCfAtsjb-b/ "
+      "link": "https://www.instagram.com/reels/DaCfAtsjb-b/",
+      "thumb": "images/reel-vicunas.jpg"
     }
   ],
   "reels": [
     {
       "title": "Oceans - Cody Simpson",
       "tag": "Climate",
-      "link": " https://www.instagram.com/p/DZV6VAZPQZp/"
+      "link": "https://www.instagram.com/p/DZV6VAZPQZp/"
     },
     {
       "title": "5 things about Plastic Pollution",
       "tag": "Environment",
-      "link": " https://www.instagram.com/p/DbANOm7iKKM/ "
+      "link": "https://www.instagram.com/p/DbANOm7iKKM/"
     },
     {
       "title": "Generation 17 - Soumya",
@@ -154,14 +159,14 @@
       "link": "https://www.instagram.com/p/DPB8EGVAPz-/"
     },
     {
-      "title": "Actor Sanjana Sanghi ",
+      "title": "Actor Sanjana Sanghi",
       "tag": "Crisis",
-      "link": " https://www.instagram.com/p/Ddtn43MtLaW/"
+      "link": "https://www.instagram.com/p/Ddtn43MtLaW/"
     },
     {
       "title": "Gender Equality",
       "tag": "Gender",
-      "link": "https://www.instagram.com/p/DVmWbY-Fov7/ "
+      "link": "https://www.instagram.com/p/DVmWbY-Fov7/"
     },
     {
       "title": "Partners at Core",
