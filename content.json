@@ -74,32 +74,34 @@
     },
     {
       "title": "Save Our Ocean - feat Sylvie Earle",
-      "date": "Month Year",
+      "date": "2022",
       "tags": [
-        "Explainer",
-        "Gender equality",
+        "Motivation",
+        "Ocean",
         "YouTube"
       ],
       "role": "Your role in one line",
       "youtube": " https://www.youtube.com/watch?v=VwPvHEC4ELA "
     },
     {
-      "title": "Third piece",
+      "title": "Snow Leopard Conservation",
       "date": "Month Year",
       "tags": [
         "Film",
-        "Crisis"
+        "Environemnt "
       ],
-      "role": "Your role in one line"
+      "role": "Your role in one line",
+      "youtube": " https://www.youtube.com/watch?v=wL7QLM83CDo"
     },
     {
-      "title": "Fourth piece",
+      "title": "Save Our Ocean",
       "date": "Month Year",
       "tags": [
         "Campaign",
         "Oceans"
       ],
-      "role": "Your role in one line"
+      "role": "Your role in one line",
+      "link": "https://www.instagram.com/p/Cfe2Yfchmr6/ "
     },
     {
       "title": "Fifth piece",
@@ -112,6 +114,11 @@
     }
   ],
   "latestReels": [
+    {
+      "title": "Beat Plastic Pollution ",
+      "tag": "Environment ",
+      "link": "https://www.instagram.com/p/CtGXkMUNTeS/"
+    },
     {
       "title": "Actor Bhumi Pednekar at UNGA 81",
       "tag": "Climate",
@@ -141,10 +148,6 @@
       "tag": "Environment",
       "link": "https://www.instagram.com/reels/DaCfAtsjb-b/",
       "thumb": "images/reel-vicunas.jpg"
-    },
-    {
-      "title": "Global Goals ",
-      "link": "https://www.instagram.com/p/CxYNruRu4dJ/"
     }
   ],
   "reels": [
@@ -177,6 +180,10 @@
       "title": "Partners at Core",
       "tag": "UN Partnerships",
       "link": "https://www.instagram.com/p/Ddl4nsfksFO/"
+    },
+    {
+      "title": "Global Goals",
+      "link": "https://www.instagram.com/p/CxYNruRu4dJ/"
     }
   ],
   "graphics": [
