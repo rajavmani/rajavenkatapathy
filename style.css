@@ -138,6 +138,8 @@ section.latest{padding-top:clamp(44px,6vw,80px)}
 .player.graphic .box{width:min(560px,100%)}
 .player.graphic .frame{aspect-ratio:4/5;background:transparent}
 .player .frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.player.insta .box{width:min(400px,100%)}
+.player.insta .frame{aspect-ratio:auto;height:min(86vh,740px);background:#fff;border-radius:6px;overflow:hidden}
 
 /* video wall page */
 .wallpage{padding-block:clamp(28px,4vw,48px) 40px}
