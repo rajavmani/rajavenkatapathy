@@ -44,6 +44,9 @@
     slider('latest-slider',C.latest||[],'latest');
     slider('lreels-slider',C.latestReels||[],'reel');
     slider('reels-slider',C.reels||[],'reel');
+    var Wr=C.writing||{}; setRich('writingIntro',Wr.intro);
+    if(Wr.items&&Wr.items.length&&$('writingList')) $('writingList').innerHTML=Wr.items.filter(function(w){return w&&w.title;}).map(function(w){return '<a class="wpost" href="'+esc(w.link||'#')+'" target="_blank" rel="noopener"><div class="ph'+(w.image?'':' empty')+'">'+(w.image?imgTag(w.image):'')+'<span class="miss">Image coming soon</span></div><span class="label">'+esc(w.label)+'</span><h3>'+esc(w.title)+'</h3><span class="go">Read ↗</span></a>';}).join('');
+    if(Wr.authorPage&&$('authorPage')) $('authorPage').href=Wr.authorPage;
     slider('graphics-slider',C.graphics||[],'graphic');
   }
 
