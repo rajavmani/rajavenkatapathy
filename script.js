@@ -19,8 +19,10 @@
     var H=C.hero||{};
     setText('eyebrow',H.eyebrow); setText('h1a',H.headline1); setText('h1b',H.headline2);
     setRich('intro1',H.intro1); setRich('intro2',H.intro2); setRich('years',H.years); setText('photoCaption',H.photoCaption);
+    // "What I did": each line (or each sentence) becomes a bullet point
+    function pts(s){ var p=String(s).split(/\n+/).map(function(x){return x.trim();}).filter(Boolean); if(p.length<2) p=String(s).trim().split(/(?<=[.!?])\s+(?=[A-Z0-9#])/); return p.length<2?md(s):'<ul class="did">'+p.map(function(x){return '<li>'+md(x)+'</li>';}).join('')+'</ul>'; }
     var WK=C.work||[];
-    if(WK.length&&$('cases')) $('cases').innerHTML=WK.filter(function(c){return c&&c.title;}).map(function(c){ var dl=''; if(c.brief) dl+='<dt>The brief</dt><dd>'+md(c.brief)+'</dd>'; if(c.did) dl+='<dt>What I did</dt><dd>'+md(c.did)+'</dd>'; if(c.result) dl+='<dt>Result</dt><dd class="win">'+md(c.result)+'</dd>'; if(c.showFeaturedIn) dl+='<dt>Featured in</dt><dd><div class="press" id="featured"></div></dd>'; return '<article class="case"><div class="ph'+(c.image?'':' empty')+'">'+(c.image?imgTag(c.image):'')+'<span class="miss">Photo coming soon</span></div><div>'+(c.meta?'<div class="meta label">'+esc(c.meta)+'</div>':'')+'<h3>'+esc(c.title)+'</h3><dl>'+dl+'</dl>'+(c.award?'<span class="award">'+esc(c.award)+'</span>':'')+'</div></article>'; }).join('');
+    if(WK.length&&$('cases')) $('cases').innerHTML=WK.filter(function(c){return c&&c.title;}).map(function(c){ var dl=''; if(c.brief) dl+='<dt>The brief</dt><dd>'+md(c.brief)+'</dd>'; if(c.did) dl+='<dt>What I did</dt><dd>'+pts(c.did)+'</dd>'; if(c.result) dl+='<dt>Result</dt><dd class="win">'+md(c.result)+'</dd>'; if(c.showFeaturedIn) dl+='<dt>Featured in</dt><dd><div class="press" id="featured"></div></dd>'; return '<article class="case"><div class="ph'+(c.image?'':' empty')+'">'+(c.image?imgTag(c.image):'')+'<span class="miss">Photo coming soon</span></div><div>'+(c.meta?'<div class="meta label">'+esc(c.meta)+'</div>':'')+'<h3>'+esc(c.title)+'</h3><dl>'+dl+'</dl>'+(c.award?'<span class="award">'+esc(c.award)+'</span>':'')+'</div></article>'; }).join('');
     names('creds',C.highlights,true); names('featured',C.featuredIn); names('orgs',C.organisations);
     fill($('portrait'),H.photo||'images/portrait.jpg');
 
