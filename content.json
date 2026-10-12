@@ -223,7 +223,8 @@
       "meta": "UNDP · Digital Media Specialist · 2022 to present · New York",
       "brief": "Make development work on climate, crisis, the Global Goals, gender equality and poverty matter to a global audience scrolling past.",
       "did": "Produced 100+ videos, photo stories and graphics. \n\nManage UNDP's Instagram and Facebook pages curating and reviewing content. \n\nWrote scripts, stories and blogs, and planned campaigns for advocacy efforts working with UNDP offices around the world. \n\nBrainstorm ideas, provide creative feedback and support teams on execution of global campaigns.\n\nSupported UNDP’s global campaigns with creative input and execution, and worked with Goodwill Ambassadors on their content strategy and production, including Cody Simpson, Nikolaj Coster-Waldau, Michelle Yeoh, Yemi Alade and Antonio Banderas.",
-      "showFeaturedIn": false
+      "showFeaturedIn": false,
+      "image": "images/case-undp-global.jpg"
     },
     {
       "title": "United Nations Development Programme India",
@@ -231,16 +232,18 @@
       "brief": "Build an engaged national audience for UNDP’s work in India.",
       "did": "Produced multimedia content and campaigns, including videos and graphics on programme work and advocacy efforts. \n\nAdvised and managed senior leadership social media Social Media curating and creating content on important events. \n\nManaged the country office website with updates and analytics on the content performance. \n\nProvided creative feedback and support teams on execution campaigns.\n\nWorked with creators and celebrities on advocacy efforts, including Prajakta Koli, Sarah-Jane Dias and Lucky Ali.",
       "result": "Grew the social audience by 80%, to more than 250,000 followers.",
-      "showFeaturedIn": false
+      "showFeaturedIn": false,
+      "image": "images/case-undp-india.jpg"
     },
     {
       "title": "The Deported: Life Beyond the Border",
       "meta": "KCRW & Annenberg Innovation Lab · 360° VR documentary · 2017 to 2018",
       "brief": "Put audiences inside the reality of deportation through a human experience rather than reporting on it from a distance.",
       "did": "Researched, filmed and edited a 360° documentary built for VR headsets.\nSupport with on field logistics and production \nSupported in the post production and distribution",
-      "result": "Webby Award 2019 · Society of News Design Bronze · Online News Association finalist 2018.\nSee the work: [The Deported](https://thedeported.jovrnalism.io/) · [Immersed in San Pedro](http://www.jovrnalism.io/2018/03/11/immersed-in-san-pedro/) · [Homeless Realities](https://homelessrealities.jovrnalism.io/)",
+      "result": "Webby Award 2019 · Society of News Design Bronze · Online News Association finalist 2018.\nWatch it here: [The Deported](https://thedeported.jovrnalism.io/) · [Immersed in San Pedro](http://www.jovrnalism.io/2018/03/11/immersed-in-san-pedro/) · [Homeless Realities](https://homelessrealities.jovrnalism.io/)",
       "award": "Webby Award Winner",
-      "showFeaturedIn": false
+      "showFeaturedIn": false,
+      "image": "images/case-deported.jpg"
     },
     {
       "title": "#14000andCounting",
@@ -248,7 +251,8 @@
       "brief": "To increase awareness on children seperated from families at the border",
       "did": "Produced, filmed and built an art installation consisting of a 20 ft milk carton trimmed in white neon located in Venice Beach, Los Angeles with 14,000 individual milk cartons inside representing every child. Instead of talking about missing children we used the milk carton reference to talk about what they are missing out on: their homes, families, and childhoods and wrote this on every milk carton.",
       "result": "[Learn more](https://ginger-q.com/work/14000-counting-missing-childhoods)",
-      "showFeaturedIn": true
+      "showFeaturedIn": true,
+      "image": "images/case-14000.jpg"
     },
     {
       "title": "Fundraising documentary for Syria",
