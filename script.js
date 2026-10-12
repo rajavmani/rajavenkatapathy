@@ -18,6 +18,8 @@
     var H=C.hero||{};
     setText('eyebrow',H.eyebrow); setText('h1a',H.headline1); setText('h1b',H.headline2);
     setRich('intro1',H.intro1); setRich('intro2',H.intro2); setRich('years',H.years); setText('photoCaption',H.photoCaption);
+    var WK=C.work||[];
+    if(WK.length&&$('cases')) $('cases').innerHTML=WK.filter(function(c){return c&&c.title;}).map(function(c){ var dl=''; if(c.brief) dl+='<dt>The brief</dt><dd>'+md(c.brief)+'</dd>'; if(c.did) dl+='<dt>What I did</dt><dd>'+md(c.did)+'</dd>'; if(c.result) dl+='<dt>Result</dt><dd class="win">'+md(c.result)+'</dd>'; if(c.showFeaturedIn) dl+='<dt>Featured in</dt><dd><div class="press" id="featured"></div></dd>'; return '<article class="case"><div class="ph'+(c.image?'':' empty')+'">'+(c.image?imgTag(c.image):'')+'<span class="miss">Photo coming soon</span></div><div>'+(c.meta?'<div class="meta label">'+esc(c.meta)+'</div>':'')+'<h3>'+esc(c.title)+'</h3><dl>'+dl+'</dl>'+(c.award?'<span class="award">'+esc(c.award)+'</span>':'')+'</div></article>'; }).join('');
     names('creds',C.highlights,true); names('featured',C.featuredIn); names('orgs',C.organisations);
     fill($('portrait'),H.photo||'images/portrait.jpg');
 
