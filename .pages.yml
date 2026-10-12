@@ -111,6 +111,23 @@ content:
 
       - { name: graphicsMore, label: "\"Click for more\" link under the graphics (e.g. your Instagram or a Behance page)", type: string }
 
+      - name: work
+        label: Work experience (case studies) - top one shows first
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: meta, label: "Small line above the title (organisation · role · years · city)", type: string }
+          - { name: image, label: "Photo (wide, 3:2)", type: image }
+          - { name: brief, label: The brief, type: text }
+          - { name: did, label: What I did, type: text }
+          - { name: result, label: "Result (leave empty to hide)", type: text }
+          - { name: award, label: "Green badge text (optional, e.g. Webby Award Winner)", type: string }
+          - { name: showFeaturedIn, label: "Show the 'Featured in' press list in this case", type: boolean }
+
       - name: writing
         label: Writing (articles and blogs)
         type: object
