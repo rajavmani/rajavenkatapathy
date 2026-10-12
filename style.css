@@ -233,6 +233,18 @@ section{padding-block:clamp(56px,8vw,110px)}
 .older{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px 26px;padding-top:10px;color:var(--text-soft)}
 @media (max-width:720px){.writing{grid-template-columns:minmax(0,1fr)}.post.feature{grid-row:auto;min-height:0}}
 
+/* writing cards */
+.wposts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.wpost{display:grid;gap:10px;align-content:start;text-decoration:none;color:inherit}
+.wpost .ph{aspect-ratio:16/10;border:1px solid var(--lines)}
+.wpost h3{font-size:1.15rem;line-height:1.25;letter-spacing:-.015em}
+.wpost:hover h3{color:var(--accent)}
+.wpost:hover .ph{border-color:var(--accent)}
+.wpost .go{font-family:var(--font-labels);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+@media (max-width:900px){.wposts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.wposts{grid-template-columns:minmax(0,1fr)}}
+.latest .card .role{display:none}
+
 /* recognition */
 .awards{list-style:none;margin:0;padding:0;border-top:1px solid var(--lines)}
 .awards li{display:grid;grid-template-columns:84px minmax(0,1fr) minmax(0,1fr);gap:6px 32px;padding-block:18px;border-bottom:1px solid var(--lines);align-items:baseline}
