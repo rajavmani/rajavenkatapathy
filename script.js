@@ -5,7 +5,8 @@
   function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
   function setText(id,v){ var el=$(id); if(el&&v!=null&&v!=='') el.textContent=v; }
   // [words](https://link) in any text box becomes a link
-  function md(s){ return esc(s).replace(/\[([^\]]+)\]\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g,function(_,a,u){return '<a href="'+u+'" target="_blank" rel="noopener">'+a+'</a>';}); }
+  // [words](https://link) becomes a link; a bare https://link also becomes a link; new lines are kept
+  function md(s){ var o=esc(s).replace(/\[([^\]]+)\]\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g,function(_,a,u){return '<a href="'+u+'" target="_blank" rel="noopener">'+a+'</a>';}); o=o.replace(/(^|[\s(])(https?:\/\/[^\s<]+)/g,function(_,p,u){return p+'<a href="'+u+'" target="_blank" rel="noopener">'+u+'</a>';}); return o.trim().replace(/\n+/g,'<br>'); }
   function setRich(id,v){ var el=$(id); if(el&&v!=null&&v!=='') el.innerHTML=md(v); }
   function names(id,list,hl){ var el=$(id); if(!el||!list||!list.length) return; el.innerHTML=list.filter(function(x){return x&&x.name;}).map(function(x){ var c=(hl&&x.highlight)?' class="hl"':''; return x.link?'<a'+c+' href="'+esc(x.link)+'" target="_blank" rel="noopener">'+esc(x.name)+'</a>':'<b'+c+'>'+esc(x.name)+'</b>'; }).join(''); }
   function imgTag(src){ return '<img src="'+esc(src)+'" alt="" loading="lazy" onerror="this.parentNode.classList.add(\'empty\')">'; }
