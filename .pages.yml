@@ -111,6 +111,25 @@ content:
 
       - { name: graphicsMore, label: "\"Click for more\" link under the graphics (e.g. your Instagram or a Behance page)", type: string }
 
+      - name: writing
+        label: Writing (articles and blogs)
+        type: object
+        fields:
+          - { name: intro, label: Intro line, type: text }
+          - name: items
+            label: Articles
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: label, label: "Small label (e.g. UNDP blog · Climate)", type: string }
+              - { name: link, label: Link to the article, type: string }
+              - { name: image, label: "Cover image (wide, e.g. 1200 x 750)", type: image }
+          - { name: authorPage, label: "\"All my stories\" button link", type: string }
+
       - name: about
         label: About section
         type: object
