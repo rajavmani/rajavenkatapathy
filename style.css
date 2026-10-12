@@ -217,7 +217,9 @@ section{padding-block:clamp(40px,5vw,72px)}
 .case dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px 18px;margin:20px 0 0}
 .case dt{font-family:var(--font-labels);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-soft);padding-top:5px}
 .case dd{margin:0;max-width:60ch}
-.case dd.win{color:var(--accent);font-weight:500}
+.case dd.win{color:var(--text);font-weight:500}
+.case ul.did{margin:0;padding-left:1.1em;display:grid;gap:6px}
+.case ul.did li::marker{color:var(--accent)}
 .award{display:inline-block;margin-top:16px;font-family:var(--font-labels);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;background:var(--accent);color:var(--accent-text);padding:5px 10px}
 @media (max-width:820px){.case{grid-template-columns:minmax(0,1fr)}}
 
