@@ -217,6 +217,36 @@
       "image": "images/ig-DeTW9acGkGm.jpg"
     }
   ],
+  "writing": {
+    "intro": "Stories on climate, inequality and the people behind them, published by UNDP.",
+    "items": [
+      {
+        "title": "Global heating in the coldest place on earth",
+        "label": "UNDP blog · Climate",
+        "link": "https://www.undp.org/blog/global-heating-coldest-place-earth",
+        "image": "images/writing-global-heating.jpg"
+      },
+      {
+        "title": "A scorching divide: How heatwaves expose inequality",
+        "label": "UNDP blog · Inequality",
+        "link": "https://www.undp.org/blog/scorching-divide-how-heatwaves-expose-inequality",
+        "image": "images/writing-scorching-divide.jpg"
+      },
+      {
+        "title": "Safai Saathis: the invisible environmentalists",
+        "label": "UNDP on Medium",
+        "link": "https://undp.medium.com/safai-saathis-the-invisible-environmentalists-ecd4ecf6c934",
+        "image": "images/writing-safai-saathis.jpg"
+      },
+      {
+        "title": "Make memories, take photos and leave only footprints",
+        "label": "UNDP story",
+        "link": "https://www.undp.org/stories/make-memories-take-photos-and-leave-only-footprints",
+        "image": "images/writing-leave-only-footprints.jpg"
+      }
+    ],
+    "authorPage": "https://www.undp.org/authors/raja-venkatapathy-mani"
+  },
   "about": {
     "heading": "Telling stories that matter",
     "paragraphs": [
