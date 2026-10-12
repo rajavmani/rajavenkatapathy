@@ -39,6 +39,7 @@
     if(K.email){ $('email').textContent=K.email; $('email').href='mailto:'+K.email; }
     var li=$('linkedin'); if(K.linkedin){ li.href=K.linkedin; li.hidden=false; } else li.hidden=true;
     var cv=$('cv'); if(K.cv){ cv.href=K.cv; cv.hidden=false; } else cv.hidden=true;
+    if(C.wakelet&&$('wakelet')) $('wakelet').href=C.wakelet;
     var gm=$('graphicsMore'); if(gm&&C.graphicsMore){ gm.href=C.graphicsMore; gm.hidden=false; }
 
     slider('latest-slider',C.latest||[],'latest');
