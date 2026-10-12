@@ -96,7 +96,7 @@ h1,h2,h3{font-family:var(--font-headings);font-weight:800;letter-spacing:-.025em
 .track>*{scroll-snap-align:start}
 
 /* latest work slider */
-section.latest{padding-top:clamp(44px,6vw,80px)}
+section.latest{padding-top:clamp(32px,4vw,56px)}
 .latest .track{grid-auto-columns:calc((100% - 2*18px)/2.4)}
 .latest .card{gap:10px}
 .latest .card h3{font-size:clamp(1.15rem,1.6vw,1.4rem);line-height:1.2}
@@ -154,7 +154,7 @@ section.latest{padding-top:clamp(44px,6vw,80px)}
 .creds a:hover,.wall a:hover{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
 
 /* sections */
-section{padding-block:clamp(56px,8vw,110px)}
+section{padding-block:clamp(40px,5vw,72px)}
 .head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:16px 48px;align-items:end;margin-bottom:clamp(28px,4vw,48px)}
 .head h2{font-size:clamp(2.3rem,5.2vw,4.1rem)}
 .head p{color:var(--text-soft);max-width:54ch}
@@ -244,6 +244,12 @@ section{padding-block:clamp(56px,8vw,110px)}
 @media (max-width:900px){.wposts{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:520px){.wposts{grid-template-columns:minmax(0,1fr)}}
 .latest .card .role{display:none}
+
+.press{display:flex;flex-wrap:wrap;gap:6px 18px}
+.press b,.press a{font-weight:600;color:var(--text);text-decoration:none}
+.press a::after{content:" ↗";font-size:.75em;color:var(--accent)}
+.press a:hover{color:var(--accent)}
+#about-h{color:var(--accent)}
 
 /* recognition */
 .awards{list-style:none;margin:0;padding:0;border-top:1px solid var(--lines)}
