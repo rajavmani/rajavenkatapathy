@@ -6,7 +6,7 @@
   function setText(id,v){ var el=$(id); if(el&&v!=null&&v!=='') el.textContent=v; }
   // [words](https://link) in any text box becomes a link
   // [words](https://link) becomes a link; a bare https://link also becomes a link; new lines are kept
-  function md(s){ var o=esc(s).replace(/\[([^\]]+)\]\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g,function(_,a,u){return '<a href="'+u+'" target="_blank" rel="noopener">'+a+'</a>';}); o=o.replace(/(^|[\s(])(https?:\/\/[^\s<]+)/g,function(_,p,u){return p+'<a href="'+u+'" target="_blank" rel="noopener">'+u+'</a>';}); return o.trim().replace(/\n+/g,'<br>'); }
+  function md(s){ var o=esc(s).replace(/\[([^\]]+)\]\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g,function(_,a,u){return '<a href="'+u+'" target="_blank" rel="noopener">'+a+'</a>';}); o=o.replace(/(^|[\s(])(https?:\/\/[^\s<]+)/g,function(_,p,u){return p+'<a href="'+u+'" target="_blank" rel="noopener">'+u+'</a>';}); o=o.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>'); return o.trim().replace(/\n+/g,'<br>'); }
   function setRich(id,v){ var el=$(id); if(el&&v!=null&&v!=='') el.innerHTML=md(v); }
   function names(id,list,hl){ var el=$(id); if(!el||!list||!list.length) return; el.innerHTML=list.filter(function(x){return x&&x.name;}).map(function(x){ var c=(hl&&x.highlight)?' class="hl"':''; return x.link?'<a'+c+' href="'+esc(x.link)+'" target="_blank" rel="noopener">'+esc(x.name)+'</a>':'<b'+c+'>'+esc(x.name)+'</b>'; }).join(''); }
   function imgTag(src){ return '<img src="'+esc(src)+'" alt="" loading="lazy" onerror="this.parentNode.classList.add(\'empty\')">'; }
@@ -54,6 +54,29 @@
     if(Wr.items&&Wr.items.length&&$('writingList')) $('writingList').innerHTML=Wr.items.filter(function(w){return w&&w.title;}).map(function(w){return '<a class="wpost" href="'+esc(w.link||'#')+'" target="_blank" rel="noopener"><div class="ph'+(w.image?'':' empty')+'">'+(w.image?imgTag(w.image):'')+'<span class="miss">Image coming soon</span></div><span class="label">'+esc(w.label)+'</span><h3>'+esc(w.title)+'</h3><span class="go">Read ↗</span></a>';}).join('');
     if(Wr.authorPage&&$('authorPage')) $('authorPage').href=Wr.authorPage;
     slider('graphics-slider',C.graphics||[],'graphic');
+    var Wr0=Wr;
+    // ---------- sections added to the CMS (14 Oct 2026) ----------
+    function list(id,arr,fn){ var el=$(id); if(el&&arr&&arr.length) el.innerHTML=arr.filter(Boolean).map(fn).join(''); }
+    function btn(id,text,link){ var el=$(id); if(!el) return; if(text) el.textContent=text; if(link) el.href=link; }
+    function paras(id,arr){ list(id,arr,function(x){return '<p>'+md(x)+'</p>';}); }
+    var S=C.sections||{};
+    setText('featured-h',S.featured); setText('videosLabel',S.videosLabel); setText('videos-h',S.videos);
+    setText('graphicsLabel',S.graphicsLabel); setText('graphics-h',S.graphics);
+    setText('work-h',S.work); setRich('workIntro',S.workIntro); setText('writing-h',S.writing);
+    setText('aboutLabel',S.aboutLabel); setText('fieldTag',S.photoTag);
+    btn('btnWork',H.button1); btn('btnContact',H.button2); if(Wr0.authorButton) btn('authorPage',Wr0.authorButton);
+    btn('wakelet',S.videosButton); if(S.graphicsMoreText) btn('graphicsMore',S.graphicsMoreText);
+    var WD=C.whatIDo||{}; setText('what-h',WD.heading); setRich('whatIntro',WD.intro);
+    list('tiles',WD.tiles,function(t){return '<div class="tile"><span class="label">'+esc(t.label)+'</span><h3>'+esc(t.title)+'</h3><p>'+md(t.text)+'</p>'+(t.proof?'<span class="proof">'+md(t.proof)+'</span>':'')+'</div>';});
+    var R=C.recognition||{}; setText('rec-h',R.heading); setRich('recIntro',R.intro); setText('orgsLabel',R.orgsLabel);
+    list('awards',R.awards,function(a){return '<li'+(a.highlight?' class="top"':'')+'><span class="yr">'+esc(a.year)+'</span><strong>'+esc(a.title)+'</strong><span>'+md(a.detail)+'</span></li>';});
+    var L=C.lab||{}; setText('labLabel',L.label); setText('lab-h',L.heading); setRich('labIntro',L.intro);
+    list('labItems',L.items,function(t){return '<div class="item"><h3>'+esc(t.title)+'</h3><p>'+md(t.text)+'</p>'+(t.proof?'<span class="proof">'+md(t.proof)+'</span>':'')+'</div>';});
+    var SK=C.skills||{}; setText('kit-h',SK.heading); setRich('kitIntro',SK.intro);
+    list('kit',SK.groups,function(g){return '<div'+(g.wide?' class="edu"':'')+'><span class="label">'+esc(g.label)+'</span><p>'+md(g.text)+'</p></div>';});
+    var O=C.offTheClock||{}; setText('otcLabel',O.label); setText('otc-h',O.heading); paras('otcText',O.paragraphs); btn('otcBtn',O.buttonText,O.buttonLink);
+    setText('contactLabel',K.label); if(K.heading1||K.heading2){ var h2=String(K.heading2||'').trim(), cut=h2.lastIndexOf(' '); $('contact-h').innerHTML=esc(K.heading1||'')+'<br>'+(cut>0?esc(h2.slice(0,cut))+' <span>'+esc(h2.slice(cut+1))+'</span>':'<span>'+esc(h2)+'</span>'); }
+    btn('cv',K.cvButton); btn('linkedin',K.linkedinButton); setText('footer',C.footer);
   }
 
   // ---------- video sliders ----------

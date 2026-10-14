@@ -7,7 +7,9 @@
     "intro2": "I build campaigns and advocacy on complex global challenges, turning them into simple, human stories for every screen, from Reels to VR and whatever comes next.",
     "years": "12+ years in advertising, brand building, international development, non-profit advocacy and new media.",
     "photo": "images/raja-dp.png",
-    "photoCaption": "UNITED NATIONS HQ"
+    "photoCaption": "UNITED NATIONS HQ",
+    "button1": "See my work →",
+    "button2": "Get in touch"
   },
   "highlights": [
     {
@@ -103,15 +105,6 @@
       "role": "Your role in one line",
       "link": "https://www.instagram.com/p/Cfe2Yfchmr6/",
       "thumb": "images/ig-Cfe2Yfchmr6.jpg"
-    },
-    {
-      "title": "Fifth piece",
-      "date": "Month Year",
-      "tags": [
-        "Reel",
-        "Global Goals"
-      ],
-      "role": "Your role in one line"
     }
   ],
   "latestReels": [
@@ -290,7 +283,8 @@
         "image": "images/writing-leave-only-footprints.jpg"
       }
     ],
-    "authorPage": "https://www.undp.org/authors/raja-venkatapathy-mani"
+    "authorPage": "https://www.undp.org/authors/raja-venkatapathy-mani",
+    "authorButton": "All my stories on undp.org ↗"
   },
   "about": {
     "heading": "Telling stories that matter",
@@ -330,7 +324,12 @@
   "travelPhoto": "images/travel.jpg",
   "contact": {
     "line": "I’m open to talk about communications, campaigns, social media and digital, across the UN system, international organisations, brands and tech.",
-    "email": "raja@rajavenkatapathy.com"
+    "email": "raja@rajavenkatapathy.com",
+    "label": "Contact",
+    "heading1": "Let’s tell",
+    "heading2": "your story.",
+    "cvButton": "Download CV",
+    "linkedinButton": "LinkedIn ↗"
   },
   "wakelet": "https://wakelet.com/wake/-hoKD1NmWkkzTqJGR6X56",
   "featuredIn": [
@@ -405,5 +404,171 @@
     {
       "name": "USC Annenberg"
     }
-  ]
+  ],
+  "sections": {
+    "featured": "Featured work",
+    "videosLabel": "Made for UNDP’s global and India channels",
+    "videos": "Video wall",
+    "videosButton": "See all videos ↗",
+    "graphicsLabel": "Social graphics and carousels",
+    "graphics": "Graphics",
+    "graphicsMoreText": "Click for more →",
+    "work": "Work experience",
+    "workIntro": "",
+    "writing": "Writing",
+    "aboutLabel": "About",
+    "photoTag": "On the road"
+  },
+  "whatIDo": {
+    "heading": "What I do",
+    "intro": "Work at the intersection where strategy and creativity meet.",
+    "tiles": [
+      {
+        "label": "Strategy",
+        "title": "Marketing & campaign strategy",
+        "text": "Briefs, messaging, channel plans and launches for brands and causes, from concept to results report.",
+        "proof": "UNDP: Save Our Ocean, Beat Plastic Pollution, End Poverty, Global Goals · Philips M1XDJ launch · #14000andCounting"
+      },
+      {
+        "label": "Social",
+        "title": "Social media & audience growth",
+        "text": "Editorial strategy, content calendars and community growth across Instagram, Facebook, X, LinkedIn and YouTube.",
+        "proof": "+400K at UNDP global · +80% at UNDP India"
+      },
+      {
+        "label": "Content",
+        "title": "Content & video production",
+        "text": "Scripting, shooting direction and editing for Reels, explainers, brand films and short documentaries. Writing copy, blogs and stories from the ground.",
+        "proof": "100+ multimedia pieces for UNDP · UNDP blogs and stories"
+      },
+      {
+        "label": "Digital",
+        "title": "Digital advisory & analytics",
+        "text": "Platform strategy, paid social, SEM and measurement that shows what worked and what to change.",
+        "proof": "Meta Ads · Google Analytics · Meltwater"
+      },
+      {
+        "label": "Talent",
+        "title": "Creators & talent",
+        "text": "Working with creators, celebrities and Goodwill Ambassadors to power advocacy: identifying the right voices, supporting onboarding and managing content strategy.",
+        "proof": "UNDP India and global campaigns"
+      },
+      {
+        "label": "Immersive",
+        "title": "Immersive & new media",
+        "text": "360°, VR and emerging formats that put audiences inside the story.",
+        "proof": "Webby winner · Google Daydream"
+      }
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition",
+    "intro": "Awards for documentary, interactive and campaign work.",
+    "orgsLabel": "Organisations I’ve worked with",
+    "awards": [
+      {
+        "year": "2019",
+        "title": "Webby Award, Winner",
+        "detail": "The Deported: Life Beyond the Border, for KCRW",
+        "highlight": true
+      },
+      {
+        "year": "2019",
+        "title": "World Journalism Education Congress",
+        "detail": "Outstanding Documentary, Paris",
+        "highlight": false
+      },
+      {
+        "year": "2018",
+        "title": "Society of News Design",
+        "detail": "Bronze, The Deported",
+        "highlight": false
+      },
+      {
+        "year": "2018",
+        "title": "Online News Association",
+        "detail": "Finalist, The Deported",
+        "highlight": false
+      },
+      {
+        "year": "2017",
+        "title": "Mojo Festival, Ireland",
+        "detail": "Best Campaign, Discover LA",
+        "highlight": false
+      },
+      {
+        "year": "2014",
+        "title": "Drive with MTV, Season 3",
+        "detail": "Winner. Viacom’s social media travel show; 10M+ impressions for team #NanoNorth",
+        "highlight": false
+      }
+    ]
+  },
+  "lab": {
+    "label": "New media lab",
+    "heading": "Always early to the next format",
+    "intro": "Platforms change every year. The job stays the same: find where the audience is, and tell the story in the language of that screen.",
+    "items": [
+      {
+        "title": "Immersive & spatial",
+        "text": "360° and VR documentary since 2017, from Google Daydream to a Webby. Ready for spatial video and AR.",
+        "proof": "Webby 2019 · Google Daydream Innovator"
+      },
+      {
+        "title": "New platforms, early",
+        "text": "Bringing an institution’s voice to new platforms and building audiences there from the start."
+      },
+      {
+        "title": "Creator-led storytelling",
+        "text": "Working the way creators do: vertical-first, personality-led, built for the feed.",
+        "proof": "My own travel channel, My Highway Tales"
+      },
+      {
+        "title": "Data-driven creative",
+        "text": "Social listening and analytics that shape what gets made, not just what gets reported.",
+        "proof": "Meltwater · Keyhole · Meta and Google Analytics"
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Skills & education",
+    "intro": "",
+    "groups": [
+      {
+        "label": "Creative production",
+        "text": "Adobe Premiere Pro · After Effects · Photoshop · Lightroom · Canva · Mistika and Kolor (360° video)",
+        "wide": false
+      },
+      {
+        "label": "Strategy and analytics",
+        "text": "Meltwater · Hootsuite · Keyhole · Meta Business Suite and Ads · Google Analytics · Google Ads · Mixpanel",
+        "wide": false
+      },
+      {
+        "label": "Certifications",
+        "text": "Adobe Premiere Pro · Google Analytics · Google Ads · Design Thinking · Google VR and AR content production",
+        "wide": false
+      },
+      {
+        "label": "Languages",
+        "text": "English · Tamil · Telugu · French (learning)",
+        "wide": false
+      },
+      {
+        "label": "Education",
+        "text": "**University of Southern California, Los Angeles**\nMaster of Communication Management, New Media Storytelling",
+        "wide": true
+      }
+    ]
+  },
+  "offTheClock": {
+    "label": "Off the clock",
+    "heading": "I’m also a travel creator",
+    "paragraphs": [
+      "I make travel films and short videos. From the last post office in the world to the dunes of Namibia, the highlands of Atacama to the islands of Thailand, I look for places that wow me, people who inspire me and cultures that open my world. It energises me and keeps my short-form instincts sharp, tested on a real audience."
+    ],
+    "buttonText": "Visit myhighwaytales.com ↗",
+    "buttonLink": "https://www.myhighwaytales.com"
+  },
+  "footer": "© 2026 Raja Venkatapathy Mani"
 }
