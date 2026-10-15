@@ -3,7 +3,6 @@
     "eyebrow": "Storyteller · Marketing Strategist · New Media",
     "headline1": "Stories people stop for.",
     "headline2": "Campaigns that make them care.",
-    "intro1": "I tell stories that make people feel, care and act.",
     "intro2": "I build campaigns and advocacy on complex global challenges, turning them into simple, human stories for every screen, from Reels to VR and whatever comes next.",
     "years": "12+ years in advertising, brand building, international development, non-profit advocacy and new media.",
     "photo": "images/raja-dp.png",
@@ -217,7 +216,7 @@
       "brief": "Make development work on climate, crisis, the Global Goals, gender equality and poverty matter to a global audience scrolling past.",
       "did": "Produced 100+ videos, photo stories and graphics. \n\nManage UNDP's Instagram and Facebook pages curating and reviewing content. \n\nWrote scripts, stories and blogs, and planned campaigns for advocacy efforts working with UNDP offices around the world. \n\nBrainstorm ideas, provide creative feedback and support teams on execution of global campaigns.\n\nSupported UNDP’s global campaigns with creative input and execution, and worked with Goodwill Ambassadors on their content strategy and production, including Cody Simpson, Nikolaj Coster-Waldau, Michelle Yeoh, Yemi Alade and Antonio Banderas.",
       "showFeaturedIn": false,
-      "image": "images/case-undp-global.jpg"
+      "image": "images/undp-global-photo.jpg"
     },
     {
       "title": "United Nations Development Programme India",
@@ -323,12 +322,11 @@
   },
   "travelPhoto": "images/travel.jpg",
   "contact": {
-    "line": "I’m open to talk about communications, campaigns, social media and digital, across the UN system, international organisations, brands and tech.",
+    "line": "I’m open to conversations about strategic communications, digital campaigns and storytelling across international development, the United Nations system, nonprofits and technology.",
     "email": "raja@rajavenkatapathy.com",
     "label": "Contact",
     "heading1": "Let’s tell",
     "heading2": "your story.",
-    "cvButton": "Download CV",
     "linkedinButton": "LinkedIn ↗"
   },
   "wakelet": "https://wakelet.com/wake/-hoKD1NmWkkzTqJGR6X56",
@@ -409,7 +407,7 @@
     "featured": "Featured work",
     "videosLabel": "Made for UNDP’s global and India channels",
     "videos": "Video wall",
-    "videosButton": "See all videos ↗",
+    "videosButton": "Watch more of my videos ↗",
     "graphicsLabel": "Social graphics and carousels",
     "graphics": "Graphics",
     "graphicsMoreText": "Click for more →",
@@ -444,7 +442,7 @@
       {
         "label": "Digital",
         "title": "Digital advisory & analytics",
-        "text": "Platform strategy, paid social, SEM and measurement that shows what worked and what to change.",
+        "text": "Platform strategy, paid social, social listening and performance analytics to understand what resonates, what drives engagement and what to improve.",
         "proof": "Meta Ads · Google Analytics · Meltwater"
       },
       {
@@ -507,7 +505,7 @@
   "lab": {
     "label": "New media lab",
     "heading": "Always early to the next format",
-    "intro": "Platforms change every year. The job stays the same: find where the audience is, and tell the story in the language of that screen.",
+    "intro": "From immersive journalism to vertical video, I explore how emerging formats can make complex stories more immediate, human and engaging.",
     "items": [
       {
         "title": "Immersive & spatial",
