@@ -114,22 +114,10 @@
       "thumb": "images/ig-CtGXkMUNTeS.jpg"
     },
     {
-      "title": "Actor Bhumi Pednekar at UNGA 81",
-      "tag": "Climate",
-      "link": "https://www.instagram.com/p/DduCJkhxarT/",
-      "thumb": "images/reel-bhumi.jpg"
-    },
-    {
       "title": "Antarctica Glaciers Melting",
       "tag": "Oceans",
       "link": "https://www.instagram.com/reels/DHcFoYyIBJA/",
       "thumb": "images/reel-antarctica.jpg"
-    },
-    {
-      "title": "Actor Prajakta Koli UNGA 80",
-      "tag": "Climate",
-      "link": "https://www.instagram.com/p/DO8zAw-jUpT/",
-      "thumb": "images/reel-prajakta.jpg"
     },
     {
       "title": "Big Ocean - Inclusive Music",
@@ -142,6 +130,18 @@
       "tag": "Environment",
       "link": "https://www.instagram.com/reels/DaCfAtsjb-b/",
       "thumb": "images/reel-vicunas.jpg"
+    },
+    {
+      "title": "Actor Bhumi Pednekar at UNGA 81",
+      "tag": "Climate",
+      "link": "https://www.instagram.com/p/DduCJkhxarT/",
+      "thumb": "images/reel-bhumi.jpg"
+    },
+    {
+      "title": "Actor Prajakta Koli UNGA 80",
+      "tag": "Climate",
+      "link": "https://www.instagram.com/p/DO8zAw-jUpT/",
+      "thumb": "images/reel-prajakta.jpg"
     }
   ],
   "reels": [
@@ -213,38 +213,38 @@
     {
       "title": "United Nations Development Programme UNDP",
       "meta": "UNDP · Digital Media Specialist · 2022 to present · New York",
+      "image": "images/undp-global-photo.jpg",
       "brief": "Make development work on climate, crisis, the Global Goals, gender equality and poverty matter to a global audience scrolling past.",
       "did": "Produced 100+ videos, photo stories and graphics. \n\nManage UNDP's Instagram and Facebook pages curating and reviewing content. \n\nWrote scripts, stories and blogs, and planned campaigns for advocacy efforts working with UNDP offices around the world. \n\nBrainstorm ideas, provide creative feedback and support teams on execution of global campaigns.\n\nSupported UNDP’s global campaigns with creative input and execution, and worked with Goodwill Ambassadors on their content strategy and production, including Cody Simpson, Nikolaj Coster-Waldau, Michelle Yeoh, Yemi Alade and Antonio Banderas.",
-      "showFeaturedIn": false,
-      "image": "images/undp-global-photo.jpg"
+      "showFeaturedIn": false
     },
     {
       "title": "United Nations Development Programme India",
       "meta": "UNDP India · Digital Media Communications · 2019 to 2021 · New Delhi",
+      "image": "images/case-undp-india.jpg",
       "brief": "Build an engaged national audience for UNDP’s work in India.",
       "did": "Produced multimedia content and campaigns, including videos and graphics on programme work and advocacy efforts. \n\nAdvised and managed senior leadership social media Social Media curating and creating content on important events. \n\nManaged the country office website with updates and analytics on the content performance. \n\nProvided creative feedback and support teams on execution campaigns.\n\nWorked with creators and celebrities on advocacy efforts, including Prajakta Koli, Sarah-Jane Dias and Lucky Ali.",
       "result": "Grew the social audience by 80%, to more than 250,000 followers.",
-      "showFeaturedIn": false,
-      "image": "images/case-undp-india.jpg"
+      "showFeaturedIn": false
     },
     {
       "title": "The Deported: Life Beyond the Border",
       "meta": "KCRW & Annenberg Innovation Lab · 360° VR documentary · 2017 to 2018",
+      "image": "images/case-deported.jpg",
       "brief": "Put audiences inside the reality of deportation through a human experience rather than reporting on it from a distance.",
       "did": "Researched, filmed and edited a 360° documentary built for VR headsets.\nSupport with on field logistics and production \nSupported in the post production and distribution",
       "result": "Webby Award 2019 · Society of News Design Bronze · Online News Association finalist 2018.\nWatch it here: [The Deported](https://thedeported.jovrnalism.io/) · [Immersed in San Pedro](http://www.jovrnalism.io/2018/03/11/immersed-in-san-pedro/) · [Homeless Realities](https://homelessrealities.jovrnalism.io/)",
       "award": "Webby Award Winner",
-      "showFeaturedIn": false,
-      "image": "images/case-deported.jpg"
+      "showFeaturedIn": false
     },
     {
       "title": "#14000andCounting",
       "meta": "72andSunny · Creative Strategist · 2018 · Los Angeles",
+      "image": "images/case-14000.jpg",
       "brief": "To increase awareness on children seperated from families at the border",
       "did": "Produced, filmed and built an art installation consisting of a 20 ft milk carton trimmed in white neon located in Venice Beach, Los Angeles with 14,000 individual milk cartons inside representing every child. Instead of talking about missing children we used the milk carton reference to talk about what they are missing out on: their homes, families, and childhoods and wrote this on every milk carton.",
       "result": "[Learn more](https://ginger-q.com/work/14000-counting-missing-childhoods)",
-      "showFeaturedIn": true,
-      "image": "images/case-14000.jpg"
+      "showFeaturedIn": true
     },
     {
       "title": "Fundraising documentary for Syria",
@@ -320,13 +320,177 @@
       }
     ]
   },
+  "sections": {
+    "featured": "Featured work",
+    "videosLabel": "Made for UNDP’s global and India channels",
+    "videos": "Video wall",
+    "videosButton": "Watch more of my videos ↗",
+    "graphicsLabel": "Social graphics and carousels",
+    "graphics": "Graphics",
+    "graphicsMoreText": "Click for more →",
+    "work": "Work experience",
+    "writing": "Writing",
+    "aboutLabel": "About",
+    "photoTag": "On the road"
+  },
+  "whatIDo": {
+    "heading": "What I do",
+    "intro": "Work at the intersection where strategy and creativity meet.",
+    "tiles": [
+      {
+        "label": "Strategy",
+        "title": "Marketing & campaign strategy",
+        "text": "Briefs, messaging, channel plans and launches for brands and causes, from concept to results report.",
+        "proof": "UNDP: Save Our Ocean, Beat Plastic Pollution, End Poverty, Global Goals · Philips M1XDJ launch · #14000andCounting"
+      },
+      {
+        "label": "Social",
+        "title": "Social media & audience growth",
+        "text": "Editorial strategy, content calendars and community growth across Instagram, Facebook, X, LinkedIn and YouTube.",
+        "proof": "+400K at UNDP global · +80% at UNDP India"
+      },
+      {
+        "label": "Content",
+        "title": "Content & video production",
+        "text": "Scripting, shooting direction and editing for Reels, explainers, brand films and short documentaries. Writing copy, blogs and stories from the ground.",
+        "proof": "100+ multimedia pieces for UNDP · UNDP blogs and stories"
+      },
+      {
+        "label": "Digital",
+        "title": "Digital advisory & analytics",
+        "text": "Platform strategy, paid social, social listening and performance analytics to understand what resonates, what drives engagement and what to improve.",
+        "proof": "Meta Ads · Google Analytics · Meltwater"
+      },
+      {
+        "label": "Talent",
+        "title": "Creators & talent",
+        "text": "Working with creators, celebrities and Goodwill Ambassadors to power advocacy: identifying the right voices, supporting onboarding and managing content strategy.",
+        "proof": "UNDP India and global campaigns"
+      },
+      {
+        "label": "Immersive",
+        "title": "Immersive & new media",
+        "text": "360°, VR and emerging formats that put audiences inside the story.",
+        "proof": "Webby winner · Google Daydream"
+      }
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition",
+    "intro": "Awards for documentary, interactive and campaign work.",
+    "awards": [
+      {
+        "year": "2019",
+        "title": "Webby Award, Winner",
+        "detail": "The Deported: Life Beyond the Border, for KCRW",
+        "highlight": true
+      },
+      {
+        "year": "2019",
+        "title": "World Journalism Education Congress",
+        "detail": "Outstanding Documentary, Paris",
+        "highlight": false
+      },
+      {
+        "year": "2018",
+        "title": "Society of News Design",
+        "detail": "Bronze, The Deported",
+        "highlight": false
+      },
+      {
+        "year": "2018",
+        "title": "Online News Association",
+        "detail": "Finalist, The Deported",
+        "highlight": false
+      },
+      {
+        "year": "2017",
+        "title": "Mojo Festival, Ireland",
+        "detail": "Best Campaign, Discover LA",
+        "highlight": false
+      },
+      {
+        "year": "2014",
+        "title": "Drive with MTV, Season 3",
+        "detail": "Winner. Viacom’s social media travel show; 10M+ impressions for team #NanoNorth",
+        "highlight": false
+      }
+    ],
+    "orgsLabel": "Organisations I’ve worked with"
+  },
+  "lab": {
+    "label": "New media lab",
+    "heading": "Always early to the next format",
+    "intro": "From immersive journalism to vertical video, I explore how emerging formats can make complex stories more immediate, human and engaging.",
+    "items": [
+      {
+        "title": "Immersive & spatial",
+        "text": "360° and VR documentary since 2017, from Google Daydream to a Webby. Ready for spatial video and AR.",
+        "proof": "Webby 2019 · Google Daydream Innovator"
+      },
+      {
+        "title": "New platforms, early",
+        "text": "Bringing an institution’s voice to new platforms and building audiences there from the start."
+      },
+      {
+        "title": "Creator-led storytelling",
+        "text": "Working the way creators do: vertical-first, personality-led, built for the feed.",
+        "proof": "My own travel channel, My Highway Tales"
+      },
+      {
+        "title": "Data-driven creative",
+        "text": "Social listening and analytics that shape what gets made, not just what gets reported.",
+        "proof": "Meltwater · Keyhole · Meta and Google Analytics"
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Skills & education",
+    "groups": [
+      {
+        "label": "Creative production",
+        "text": "Adobe Premiere Pro · After Effects · Photoshop · Lightroom · Canva · Mistika and Kolor (360° video)",
+        "wide": false
+      },
+      {
+        "label": "Strategy and analytics",
+        "text": "Meltwater · Hootsuite · Keyhole · Meta Business Suite and Ads · Google Analytics · Google Ads · Mixpanel",
+        "wide": false
+      },
+      {
+        "label": "Certifications",
+        "text": "Adobe Premiere Pro · Google Analytics · Google Ads · Design Thinking · Google VR and AR content production",
+        "wide": false
+      },
+      {
+        "label": "Languages",
+        "text": "English · Tamil · Telugu · French (learning)",
+        "wide": false
+      },
+      {
+        "label": "Education",
+        "text": "**University of Southern California, Los Angeles**\nMaster of Communication Management, New Media Storytelling",
+        "wide": true
+      }
+    ]
+  },
+  "offTheClock": {
+    "label": "Off the clock",
+    "heading": "I’m also a travel creator",
+    "paragraphs": [
+      "I make travel films and short videos. From the last post office in the world to the dunes of Namibia, the highlands of Atacama to the islands of Thailand, I look for places that wow me, people who inspire me and cultures that open my world. It energises me and keeps my short-form instincts sharp, tested on a real audience."
+    ],
+    "buttonText": "Visit myhighwaytales.com ↗",
+    "buttonLink": "https://www.myhighwaytales.com"
+  },
+  "footer": "© 2026 Raja Venkatapathy Mani",
   "travelPhoto": "images/travel.jpg",
   "contact": {
-    "line": "I’m open to conversations about strategic communications, digital campaigns and storytelling across international development, the United Nations system, nonprofits and technology.",
-    "email": "raja@rajavenkatapathy.com",
     "label": "Contact",
     "heading1": "Let’s tell",
     "heading2": "your story.",
+    "line": "I’m open to conversations about strategic communications, digital campaigns and storytelling across international development, the United Nations system, nonprofits and technology.",
+    "email": "raja@rajavenkatapathy.com",
     "linkedinButton": "LinkedIn ↗"
   },
   "wakelet": "https://wakelet.com/wake/-hoKD1NmWkkzTqJGR6X56",
@@ -402,171 +566,5 @@
     {
       "name": "USC Annenberg"
     }
-  ],
-  "sections": {
-    "featured": "Featured work",
-    "videosLabel": "Made for UNDP’s global and India channels",
-    "videos": "Video wall",
-    "videosButton": "Watch more of my videos ↗",
-    "graphicsLabel": "Social graphics and carousels",
-    "graphics": "Graphics",
-    "graphicsMoreText": "Click for more →",
-    "work": "Work experience",
-    "workIntro": "",
-    "writing": "Writing",
-    "aboutLabel": "About",
-    "photoTag": "On the road"
-  },
-  "whatIDo": {
-    "heading": "What I do",
-    "intro": "Work at the intersection where strategy and creativity meet.",
-    "tiles": [
-      {
-        "label": "Strategy",
-        "title": "Marketing & campaign strategy",
-        "text": "Briefs, messaging, channel plans and launches for brands and causes, from concept to results report.",
-        "proof": "UNDP: Save Our Ocean, Beat Plastic Pollution, End Poverty, Global Goals · Philips M1XDJ launch · #14000andCounting"
-      },
-      {
-        "label": "Social",
-        "title": "Social media & audience growth",
-        "text": "Editorial strategy, content calendars and community growth across Instagram, Facebook, X, LinkedIn and YouTube.",
-        "proof": "+400K at UNDP global · +80% at UNDP India"
-      },
-      {
-        "label": "Content",
-        "title": "Content & video production",
-        "text": "Scripting, shooting direction and editing for Reels, explainers, brand films and short documentaries. Writing copy, blogs and stories from the ground.",
-        "proof": "100+ multimedia pieces for UNDP · UNDP blogs and stories"
-      },
-      {
-        "label": "Digital",
-        "title": "Digital advisory & analytics",
-        "text": "Platform strategy, paid social, social listening and performance analytics to understand what resonates, what drives engagement and what to improve.",
-        "proof": "Meta Ads · Google Analytics · Meltwater"
-      },
-      {
-        "label": "Talent",
-        "title": "Creators & talent",
-        "text": "Working with creators, celebrities and Goodwill Ambassadors to power advocacy: identifying the right voices, supporting onboarding and managing content strategy.",
-        "proof": "UNDP India and global campaigns"
-      },
-      {
-        "label": "Immersive",
-        "title": "Immersive & new media",
-        "text": "360°, VR and emerging formats that put audiences inside the story.",
-        "proof": "Webby winner · Google Daydream"
-      }
-    ]
-  },
-  "recognition": {
-    "heading": "Recognition",
-    "intro": "Awards for documentary, interactive and campaign work.",
-    "orgsLabel": "Organisations I’ve worked with",
-    "awards": [
-      {
-        "year": "2019",
-        "title": "Webby Award, Winner",
-        "detail": "The Deported: Life Beyond the Border, for KCRW",
-        "highlight": true
-      },
-      {
-        "year": "2019",
-        "title": "World Journalism Education Congress",
-        "detail": "Outstanding Documentary, Paris",
-        "highlight": false
-      },
-      {
-        "year": "2018",
-        "title": "Society of News Design",
-        "detail": "Bronze, The Deported",
-        "highlight": false
-      },
-      {
-        "year": "2018",
-        "title": "Online News Association",
-        "detail": "Finalist, The Deported",
-        "highlight": false
-      },
-      {
-        "year": "2017",
-        "title": "Mojo Festival, Ireland",
-        "detail": "Best Campaign, Discover LA",
-        "highlight": false
-      },
-      {
-        "year": "2014",
-        "title": "Drive with MTV, Season 3",
-        "detail": "Winner. Viacom’s social media travel show; 10M+ impressions for team #NanoNorth",
-        "highlight": false
-      }
-    ]
-  },
-  "lab": {
-    "label": "New media lab",
-    "heading": "Always early to the next format",
-    "intro": "From immersive journalism to vertical video, I explore how emerging formats can make complex stories more immediate, human and engaging.",
-    "items": [
-      {
-        "title": "Immersive & spatial",
-        "text": "360° and VR documentary since 2017, from Google Daydream to a Webby. Ready for spatial video and AR.",
-        "proof": "Webby 2019 · Google Daydream Innovator"
-      },
-      {
-        "title": "New platforms, early",
-        "text": "Bringing an institution’s voice to new platforms and building audiences there from the start."
-      },
-      {
-        "title": "Creator-led storytelling",
-        "text": "Working the way creators do: vertical-first, personality-led, built for the feed.",
-        "proof": "My own travel channel, My Highway Tales"
-      },
-      {
-        "title": "Data-driven creative",
-        "text": "Social listening and analytics that shape what gets made, not just what gets reported.",
-        "proof": "Meltwater · Keyhole · Meta and Google Analytics"
-      }
-    ]
-  },
-  "skills": {
-    "heading": "Skills & education",
-    "intro": "",
-    "groups": [
-      {
-        "label": "Creative production",
-        "text": "Adobe Premiere Pro · After Effects · Photoshop · Lightroom · Canva · Mistika and Kolor (360° video)",
-        "wide": false
-      },
-      {
-        "label": "Strategy and analytics",
-        "text": "Meltwater · Hootsuite · Keyhole · Meta Business Suite and Ads · Google Analytics · Google Ads · Mixpanel",
-        "wide": false
-      },
-      {
-        "label": "Certifications",
-        "text": "Adobe Premiere Pro · Google Analytics · Google Ads · Design Thinking · Google VR and AR content production",
-        "wide": false
-      },
-      {
-        "label": "Languages",
-        "text": "English · Tamil · Telugu · French (learning)",
-        "wide": false
-      },
-      {
-        "label": "Education",
-        "text": "**University of Southern California, Los Angeles**\nMaster of Communication Management, New Media Storytelling",
-        "wide": true
-      }
-    ]
-  },
-  "offTheClock": {
-    "label": "Off the clock",
-    "heading": "I’m also a travel creator",
-    "paragraphs": [
-      "I make travel films and short videos. From the last post office in the world to the dunes of Namibia, the highlands of Atacama to the islands of Thailand, I look for places that wow me, people who inspire me and cultures that open my world. It energises me and keeps my short-form instincts sharp, tested on a real audience."
-    ],
-    "buttonText": "Visit myhighwaytales.com ↗",
-    "buttonLink": "https://www.myhighwaytales.com"
-  },
-  "footer": "© 2026 Raja Venkatapathy Mani"
+  ]
 }
