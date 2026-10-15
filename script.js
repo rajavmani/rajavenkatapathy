@@ -85,7 +85,7 @@
   function card(v,kind){
     var k=all.push(v)-1, src=cover(v);
     var media='<div class="ph'+(src?'':' empty')+'">'+(src?imgTag(src):'')+'<span class="miss">'+(kind==='graphic'?'Graphic coming soon':'Video coming soon')+'</span>';
-    if(kind==='graphic') return '<button type="button" class="card" data-v="'+k+'" data-kind="graphic">'+media+'</div>'+(v.caption?'<h3>'+esc(v.caption)+'</h3>':'')+'</button>';
+    if(kind==='graphic') return '<button type="button" class="card" data-v="'+k+'" data-kind="graphic">'+media+'</div>'+(v.account?'<span class="label" style="color:#0095f6;text-transform:none;letter-spacing:0">@'+esc(v.account)+' &#10003;</span>':'')+(v.caption?'<h3>'+esc(v.caption)+'</h3>':'')+'</button>';
     if(kind==='latest'){
       var tags=(v.tags||[]).filter(Boolean).map(function(t){return '<span class="label">'+esc(t)+'</span>';}).join('');
       return '<button type="button" class="card" data-v="'+k+'" data-kind="wide">'+media+'<span class="play" aria-hidden="true"></span></div>'+
@@ -111,7 +111,7 @@
   var player=$('player'), frame=player.querySelector('.frame');
   function open(v,kind){
     var id=ytId(v.youtube), ig=String(v.link||'').match(/instagram\.com\/(?:p|reels?|tv)\/([\w-]+)/);
-    if(kind==='graphic'){ if(v.image){ frame.innerHTML='<img src="'+esc(v.image)+'" alt="'+esc(v.caption)+'">'; } else if(v.link){ window.open(v.link,'_blank','noopener'); return; } else return; }
+    if(kind==='graphic' && v.embed && /instagram\.com\/p\//.test(v.link||'')){ var ig=v.link.match(/\/p\/([\w-]+)/); frame.innerHTML='<iframe src="https://www.instagram.com/p/'+ig[1]+'/embed/" allow="autoplay; encrypted-media; fullscreen" allowfullscreen scrolling="no" title="'+esc(v.caption||v.account||'')+'"></iframe>'; kind='insta'; } else if(kind==='graphic'){ if(v.image){ frame.innerHTML='<img src="'+esc(v.image)+'" alt="'+esc(v.caption)+'">'; } else if(v.link){ window.open(v.link,'_blank','noopener'); return; } else return; }
     else if(id){ frame.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&rel=0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen title="'+esc(v.title)+'"></iframe>'; }
     else if(v.video){ frame.innerHTML='<video src="'+esc(v.video)+'" controls autoplay playsinline></video>'; }
     else if(ig){ frame.innerHTML='<iframe src="https://www.instagram.com/p/'+ig[1]+'/embed/" allow="autoplay; encrypted-media; fullscreen" allowfullscreen scrolling="no" title="'+esc(v.title)+'"></iframe>'; kind='insta'; }
