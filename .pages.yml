@@ -110,6 +110,8 @@ content:
           - { name: image, label: "Graphic (1080 x 1350, JPG)", type: image }
           - { name: caption, label: "Caption (optional)", type: string }
           - { name: link, label: "Link (optional) - e.g. the Instagram post", type: string }
+          - { name: account, label: "Account name (optional) - e.g. undp, shown above the graphic", type: string }
+          - { name: embed, label: "Open the Instagram post in a pop-up (tick for Instagram links)", type: boolean }
 
       - { name: graphicsMore, label: "\"Click for more\" link under the graphics (e.g. your Instagram or a Behance page)", type: string }
 
