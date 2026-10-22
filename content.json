@@ -193,40 +193,35 @@
       "link": "https://www.instagram.com/p/DW_ni7-DR4O/",
       "account": "unitednations",
       "embed": true,
-      "live": true,
-      "caption": "Social media design work"
+      "live": true
     },
     {
       "image": "",
       "link": "https://www.instagram.com/p/Dc3bBqOiQvZ/",
       "account": "undp",
       "embed": true,
-      "live": true,
-      "caption": "Social media design work"
+      "live": true
     },
     {
       "image": "",
       "link": "https://www.instagram.com/p/Db-AcZljksf/",
       "account": "undp",
       "embed": true,
-      "live": true,
-      "caption": "Social media design work"
+      "live": true
     },
     {
       "image": "",
       "link": "https://www.instagram.com/p/DaQLtdWCkjl/",
       "account": "unitednations",
       "embed": true,
-      "live": true,
-      "caption": "Social media design work"
+      "live": true
     },
     {
       "image": "",
       "link": "https://www.instagram.com/p/Dc9rxwXk_Oc/",
       "account": "undp",
       "embed": true,
-      "live": true,
-      "caption": "Social media design work"
+      "live": true
     }
   ],
   "work": [
@@ -360,7 +355,7 @@
     "videosLabel": "Made for UNDP’s global and India channels",
     "videos": "Video wall",
     "videosButton": "Watch more of my videos ↗",
-    "graphicsLabel": "Social graphics and carousels",
+    "graphicsLabel": "Social media design work",
     "graphics": "Graphics",
     "graphicsMoreText": "Click for more →",
     "work": "Work experience",
