@@ -74,7 +74,7 @@
       "youtube": "https://www.youtube.com/watch?v=3z6hw3ojcY4&t=56s"
     },
     {
-      "title": "Save Our Ocean - feat Sylvie Earle",
+      "title": "Save Our Ocean - feat Sylvia Earle",
       "date": "2022",
       "tags": [
         "Motivation",
@@ -86,17 +86,17 @@
     },
     {
       "title": "Snow Leopard Conservation",
-      "date": "Month Year",
+      "date": "",
       "tags": [
         "Film",
-        "Environemnt "
+        "Environment"
       ],
       "role": "Your role in one line",
       "youtube": "https://www.youtube.com/watch?v=wL7QLM83CDo"
     },
     {
       "title": "Save Our Ocean",
-      "date": "Month Year",
+      "date": "",
       "tags": [
         "Campaign",
         "Oceans"
@@ -193,35 +193,40 @@
       "link": "https://www.instagram.com/p/DW_ni7-DR4O/",
       "account": "unitednations",
       "embed": true,
-      "live": true
+      "live": true,
+      "caption": "Social media design work"
     },
     {
       "image": "",
       "link": "https://www.instagram.com/p/Dc3bBqOiQvZ/",
       "account": "undp",
       "embed": true,
-      "live": true
+      "live": true,
+      "caption": "Social media design work"
     },
     {
       "image": "",
       "link": "https://www.instagram.com/p/Db-AcZljksf/",
       "account": "undp",
       "embed": true,
-      "live": true
+      "live": true,
+      "caption": "Social media design work"
     },
     {
       "image": "",
       "link": "https://www.instagram.com/p/DaQLtdWCkjl/",
       "account": "unitednations",
       "embed": true,
-      "live": true
+      "live": true,
+      "caption": "Social media design work"
     },
     {
       "image": "",
       "link": "https://www.instagram.com/p/Dc9rxwXk_Oc/",
       "account": "undp",
       "embed": true,
-      "live": true
+      "live": true,
+      "caption": "Social media design work"
     }
   ],
   "work": [
@@ -231,7 +236,7 @@
       "image": "images/undp-global-photo.jpg",
       "brief": "Make development work on climate, crisis, the Global Goals, gender equality and poverty matter to a global audience scrolling past.",
       "result": "[Watch more of my work here](https://web.archive.org/web/20250620050342/https://wakelet.com/wake/-hoKD1NmWkkzTqJGR6X56)",
-      "did": "Produced 100+ videos, photo stories and graphics. \n\nManage UNDP's Instagram and Facebook pages curating and reviewing content. \n\nWrote scripts, stories and blogs, and planned campaigns for advocacy efforts working with UNDP offices around the world. \n\nBrainstorm ideas, provide creative feedback and support teams on execution of global campaigns.\n\nSupported UNDP’s global campaigns with creative input and execution, and worked with Goodwill Ambassadors on their content strategy and production, including Cody Simpson, Nikolaj Coster-Waldau, Michelle Yeoh, Yemi Alade and Antonio Banderas.",
+      "did": "Produced 100+ videos, photo stories and graphics. \n\nManaged UNDP's Instagram and Facebook pages, curating and reviewing content. \n\nWrote scripts, stories and blogs, and planned campaigns for advocacy efforts working with UNDP offices around the world. \n\nBrainstormed ideas, provided creative feedback and supported teams in executing global campaigns.\n\nSupported UNDP’s global campaigns with creative input and execution, and worked with Goodwill Ambassadors on their content strategy and production, including Cody Simpson, Nikolaj Coster-Waldau, Michelle Yeoh, Yemi Alade and Antonio Banderas.",
       "showFeaturedIn": false
     },
     {
@@ -239,7 +244,7 @@
       "meta": "UNDP India · Digital Media Communications · 2019 to 2021 · New Delhi",
       "image": "images/case-undp-india.jpg",
       "brief": "Build an engaged national audience for UNDP’s work in India.",
-      "did": "Produced multimedia content and campaigns, including videos and graphics on programme work and advocacy efforts. \n\nAdvised and managed senior leadership social media curating and creating content on important events. \n\nManaged the country office website with updates and analytics on the content performance. \n\nProvided creative feedback and support teams on execution campaigns.\n\nWorked with creators and celebrities on advocacy efforts, including Prajakta Koli, Sarah-Jane Dias and Lucky Ali.",
+      "did": "Produced multimedia content and campaigns, including videos and graphics on programme work and advocacy efforts. \n\nAdvised and managed senior leadership's social media, curating and creating content for key events. \n\nManaged the country office website, with regular updates and analytics on content performance. \n\nProvided creative feedback and supported teams in executing campaigns.\n\nWorked with creators and celebrities on advocacy efforts, including Prajakta Koli, Sarah-Jane Dias and Lucky Ali.",
       "result": "Grew the social audience by 80%, to more than 250,000 followers across all channels.\n[Watch more of my work here](https://web.archive.org/web/20250620050342/https://wakelet.com/wake/-hoKD1NmWkkzTqJGR6X56)",
       "showFeaturedIn": false
     },
@@ -247,8 +252,8 @@
       "title": "Annenberg Innovation Lab - Jovrnalism",
       "meta": "KCRW & Annenberg Innovation Lab · 360° VR documentary · 2017 to 2018",
       "image": "images/case-deported.jpg",
-      "brief": "Produce immersive stories using new technology - Augmented Reality, Virtual Reality, photogrammetry & new tech to offer different storytelling experience.",
-      "did": "Researched, filmed and edited 3 360° documentaries built for VR headsets.\nExperiment different storytelling techniques using new tech available\nSupport with on field logistics and production with BTS\nSupported in the post production and distribution",
+      "brief": "Produce immersive stories using new technology, including augmented reality, virtual reality and photogrammetry, to offer a different storytelling experience.",
+      "did": "Researched, filmed and edited three 360° documentaries built for VR headsets.\nExperimented with different storytelling techniques using new technology.\nSupported field logistics and production, including behind-the-scenes content.\nSupported post-production and distribution.",
       "result": "Webby Award 2019 · Society of News Design Bronze · Online News Association finalist 2018.\nWatch it here: [The Deported](https://thedeported.jovrnalism.io/) · [Immersed in San Pedro](http://www.jovrnalism.io/2018/03/11/immersed-in-san-pedro/) · [Homeless Realities](https://homelessrealities.jovrnalism.io/)",
       "award": "Webby Award Winner",
       "showFeaturedIn": false
@@ -257,18 +262,18 @@
       "title": "#14000andCounting",
       "meta": "72andSunny · Creative Strategist · 2018 · Los Angeles",
       "image": "images/case-14000.jpg",
-      "brief": "To increase awareness on children seperated from families at the border",
+      "brief": "Raise awareness of children separated from their families at the US border.",
       "did": "Produced, filmed and built an art installation consisting of a 20 ft milk carton trimmed in white neon located in Venice Beach, Los Angeles with 14,000 individual milk cartons inside representing every child. Instead of talking about missing children we used the milk carton reference to talk about what they are missing out on: their homes, families, and childhoods and wrote this on every milk carton.",
       "result": "[Learn more](https://ginger-q.com/work/14000-counting-missing-childhoods)",
       "showFeaturedIn": true
     },
     {
-      "title": "Save the Syrian Children ",
+      "title": "Save the Syrian Children",
       "meta": " Content Producer · 2019 · Los Angeles",
       "brief": "Produce a video to raise funds for medical aid inside an active war zone.",
       "result": "Watch the Video:\n[The Short Story appeal](https://vimeo.com/325230398)\n[The Origin Story](https://vimeo.com/314324291?share=copy&fl=cl&fe=ci)",
       "image": "https://i.vimeocdn.com/video/898204853-2eb907da0000a7a7d4fa44769072ee0f10c809b13fa453ada56be926128fcbe8-d",
-      "did": "Worked with Co-Founders and team in Syria to understand conditions on the ground, then scripted, produced and edited a fundraising documentary and video.",
+      "did": "Worked with co-founders and team in Syria to understand conditions on the ground, then scripted, produced and edited a fundraising documentary and video.",
       "showFeaturedIn": false
     }
   ],
